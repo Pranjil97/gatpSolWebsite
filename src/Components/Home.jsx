@@ -3,6 +3,9 @@ import Carousel from './Carousel'
 import '../Components/Css/home.css'
 import Services from './Services'
 import AccServices from './AccServices'
+import AccSoftware from './AccSoftware'
+import WorkPro from './WorkPro'
+import Security from './Security'
 
 const Home = () => {
     return (
@@ -12,6 +15,9 @@ const Home = () => {
             </div>
             <Services />
             <AccServices />
+            <AccSoftware />
+            <WorkPro />
+            <Security />
         </div>
     )
 }

@@ -21,6 +21,7 @@
     width: fit-content;
     margin: auto;
     color: darkcyan;
+    padding: 4px;
     border-bottom: 2px dashed darkcyan;
 }
 
@@ -59,32 +60,158 @@
 }
 
 .accServ{
-    background-image: url('../Assets/background3.jpg');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../Assets/background2.jpg');
     margin-top: 100px;
-    height: 500px;
-    margin-bottom: 500px;
+    height: fit-content;
+    margin-bottom: 120px;
     border: 1px solid black;
-    padding: 50px;
+    /* padding: 50px; */
 }
 
 .accServ h2{
     width: fit-content;
-    color: darkcyan;
-    margin: auto;
+    color: cyan;
+    margin-top: 50px;
     font-weight: normal;
-    border-bottom: 1px dotted white;
+    /* border-bottom: 1px dotted darkcyan; */
 }
 .accserv2{
-    margin: auto;
+    justify-content: center;
+    /* margin: auto; */
     flex-wrap: wrap;
     margin-top: 30px;
-    background-color: aqua;
-    width: 900px;
+    /* background-color: aqua; */
+    width: 100%;
     display: flex;
-    gap: 80px;
+    /* gap: 40px; */
 }
 .accServbox{
-    height: 100px;
-    width: 100px;
-    border: 1px dotted darkcyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+    height: 150px;
+    width: fit-content;
+    /* border: 1px solid darkcyan; */
+}
+.accServboxfake{
+    width: 50px;
+    height: 50px;
+    /* background-color: red; */
+}
+.accServboxImg{
+    /* background-color: red; */
+    /* background-color:black; */
+    width: 60px;
+    height: 60px;
+    border-radius: 10%;
+    padding: 15px;
+    /* border: 1px solid darkcyan; */
+}
+.accServboxHead{
+    color: darkgray;
+    width: fit-content;
+    font-size:20px;
+    cursor: pointer;
+    /* background-color: red; */
+    margin: 40px;
+}
+.accServboxHead:hover{
+    color: white;
+    font-weight: bold;
+    /* font-size: x-large; */
+}
+.accservboximg2{
+    height: 10px;
+}
+
+.accSoft{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    height: fit-content;
+    margin-bottom: 120px;
+    /* border: 1px solid black; */
+}
+.accsoftinner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    width:1200px;
+    height: fit-content;
+    margin-top: 60px;
+    /* background-color: pink; */
+}
+.accSoft h3{
+    color: darkcyan;
+    font-size: 30px;
+}
+.accsoftimg{
+    /* margin: auto; */
+    /* background-color: darkcyan; */
+    width: 150px;
+    height: 110px;
+    border-radius: 10%;
+    border: 2px solid darkcyan;
+}
+
+.workpro{
+ margin-top: 180px;
+ font-size: 30px;
+ height: 700px;
+ margin-bottom: 100px;
+ color: darkcyan;
+ border: 1px solid black;   
+}
+
+.security{
+    display: flex;
+    height:550px;
+    /* border: 1px solid gray; */
+}
+.security div{
+    width: 100%;
+    /* background-color: aqua; */
+}
+.security div h4{
+    color: darkcyan;
+    margin-top: -30px;
+    width: fit-content;
+    font-size: 30px;
+    font-weight: inherit;
+}
+.securityinner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: green; */
+    padding: 8px;
+}
+.securityinner p {
+    color: gray;
+}
+.security img{
+    width: 100%;
+    /* background-color: darkcyan; */
+}
+.learnbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: darkcyan;
+    width: 200px;
+    height: 50px;
+    margin-top: 15px;
+    cursor: pointer;
+    font-weight: 80%;
 }
