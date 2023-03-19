@@ -1,10 +1,56 @@
 .App {
   text-align: center;
+  /* background-color: cadetblue; */
+  /* background-image: url('./Components/Assets//background.jpg'); */
 }
 
 .nav {
+  width:inherit;
   display: flex;
+  flex-direction:row;
+  justify-content: center;
   align-items: center;
-  background-color: aqua;
   height: 65px;
+  /* background-color: #DAE2F8; */
+  background-image: linear-gradient(to right, white, darkcyan);
+}
+
+.imag{
+  background-color: white;
+  height:100%;
+  width: 300px;
+  /* margin-left: 50px; */
+}
+.imaginside{
+  height: 60px;
+}
+
+.log{
+  color: white;
+  margin-right: 50px;
+  cursor: pointer;
+}
+.log:hover{
+  font-weight:bold;
+  /* color:darkcyan; */
+}
+
+.nav ul {
+  list-style-type: none;
+  width: fit-content;
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+  margin: auto;
+}
+
+.nav ul li {
+  color: white;
+  cursor: pointer;
+}
+
+.nav ul li:hover{
+  font-weight:bold;
+  /* color:darkcyan; */
+  color:white;
 }

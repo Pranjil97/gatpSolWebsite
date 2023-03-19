@@ -1,0 +1,90 @@
+.caro{
+    /* background-color: lightgreen; */
+    background-image: url('../Assets/meeting2.jpg');
+    height: 500px;
+    /* width:1342px; */
+    width:inherit;
+    margin: auto;
+    border: 0px solid gray;
+    /* margin-top: 20px ; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.service{
+        /* background-color: white; */
+    margin-top: 80px;
+}
+
+.service h2{
+    font-size: 30px;
+    width: fit-content;
+    margin: auto;
+    color: darkcyan;
+    border-bottom: 2px dashed darkcyan;
+}
+
+.servbox{
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+    /* background-color: lightpink; */
+    width: inherit;
+    height: 450px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    /* border: 1px solid pink; */
+}
+
+.svbox{
+    border-radius: 10px;
+    background-color: white;
+    border: 1px dashed gray;
+    width: 200px;
+    padding: 2px;
+    box-shadow: 2px 2px 4px rgb(170, 192, 192);
+}
+
+.svbox:hover{
+    width: 400px;
+}
+
+.svbox h4{
+    margin-top: 140px;
+    color: darkcyan;
+}
+.svbox p{
+    color: gray;
+    font-size: 14px;
+}
+
+.accServ{
+    background-image: url('../Assets/background3.jpg');
+    margin-top: 100px;
+    height: 500px;
+    margin-bottom: 500px;
+    border: 1px solid black;
+    padding: 50px;
+}
+
+.accServ h2{
+    width: fit-content;
+    color: darkcyan;
+    margin: auto;
+    font-weight: normal;
+    border-bottom: 1px dotted white;
+}
+.accserv2{
+    margin: auto;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    background-color: aqua;
+    width: 900px;
+    display: flex;
+    gap: 80px;
+}
+.accServbox{
+    height: 100px;
+    width: 100px;
+    border: 1px dotted darkcyan;
+}
