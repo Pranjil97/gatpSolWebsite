@@ -1,0 +1,29 @@
+.workpro{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    margin-top: 160px;
+    height: 900px;
+    margin-bottom: 100px;
+    border: 1px solid black;   
+}
+.workpro h3{
+    color: darkcyan;
+    margin-bottom: 100px;
+    font-size: 30px;
+}
+.workprobox{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 1200px;
+    gap: 100px;
+    /* background-color: lightcoral; */
+}
+.workprobox1{
+    border-radius: 2px;
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+}
