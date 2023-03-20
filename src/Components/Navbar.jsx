@@ -5,14 +5,15 @@ import logo from './Assets/Logo.png'
 const Navbar = () => {
     return (
         <nav className='nav'>
-            <div className='imag'><img className='imaginside' src={logo} alt="img"></img></div>
+            <div className='logo'>LOGO</div>
+            {/* <div className='imag'><img className='imaginside' src={logo} alt="img"></img></div> */}
             <ul>
                 <li>Home</li>
                 <li>About</li>
                 <li>Security</li>
                 <li>Contact US</li>
             </ul>
-            <div className='log'>Login</div>
+            <div className='logbtn'>Login</div>
         </nav>
     )
 }
