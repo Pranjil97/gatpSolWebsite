@@ -3,12 +3,15 @@
     flex-direction: column;
     /* justify-content: center; */
     align-items: center;
-    margin-top: 160px;
-    height: 900px;
+    margin-top: 120px;
+    height: 1000px;
     margin-bottom: 100px;
-    border: 1px solid black;   
+    background-image: url('../Assets//background2.jpg');
+    /* background-color: darkcyan; */
+    /* border: 1px solid black;    */
 }
 .workpro h3{
+    margin-top: 80px;
     color: darkcyan;
     margin-bottom: 100px;
     font-size: 30px;
@@ -18,12 +21,60 @@
     justify-content: center;
     flex-wrap: wrap;
     width: 1200px;
-    gap: 100px;
+    gap: 70px;
     /* background-color: lightcoral; */
 }
 .workprobox1{
     border-radius: 2px;
-    width: 300px;
+    width: 350px;
     height: 300px;
+    border-radius: 5px;
+    background-color: white;
     border: 1px solid black;
+}
+.workprobox1inner1{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    padding: 5px;
+    height: 90px;
+    /* background-color: lightcoral; */
+}
+.workprobox1inner1 div{
+    color: darkcyan;
+    margin-left: 20px;
+    font-size: 30px;
+    /* text-transform: uppercase; */
+}
+.workprobox1 h4{
+    width: fit-content;
+    text-align: start;
+    margin: 5px;
+    margin-left: 20px;
+    font-size: 18px;
+    color: darkcyan;
+    /* width: fit-content; */
+    /* background-color: lightslategray; */
+}
+.workprobox1inner2{
+    color: gray;
+    text-align: left;
+    padding: 20px;
+    /* background-color: lightsalmon; */
+}
+.workprobox1img{
+    width: 100px;
+    margin-left: 10px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid black;
+    /* background-color: lightseagreen; */
+}
+.workproarrow1{
+    position: relative;
+    margin-top: 10px;
+    height: 30px;
+}
+.workproarrow2{
+    height: 30px;
 }

@@ -1,13 +1,21 @@
 import React from 'react'
 import './Css/home.css'
-import house from './Assets/house.png'
-import restaurant from './Assets/restaurant.png'
-import small from './Assets/bag.png'
-import health from './Assets/health.png'
-import retailer from './Assets/retailer.png'
-import factory from './Assets/factory.png'
-import communication from './Assets/communication.png'
-import logistic from './Assets/logistic.png'
+// import house from './Assets/house.png'
+import home from './Assets/home.gif'
+// import restaurant from './Assets/restaurant.png'
+import restaurant from './Assets/restaurant.gif'
+// import small from './Assets/bag.png'
+import small from './Assets/presentation.gif'
+// import health from './Assets/health.png'
+import health2 from './Assets/health2.gif'
+// import retailer from './Assets/retailer.png'
+import retailer from './Assets/trolley.gif'
+// import factory from './Assets/factory.png'
+import factory from './Assets/factory.gif'
+// import communication from './Assets/communication.png'
+import communication from './Assets/conference.gif'
+// import logistic from './Assets/logistic.png'
+import logistic from './Assets/truck.gif'
 
 
 const AccServices = () => {
@@ -20,7 +28,7 @@ const AccServices = () => {
                     <div className='accServboxfake'></div>
                     <div className='accServboxfake'></div>
                     <div className='accServbox'>
-                        <img className='accServboxImg' src={house} alt="img"></img>
+                        <img className='accServboxImg' src={home} alt="img"></img>
                         <div className='accServboxHead'>Real Estate</div>
                     </div>
                     <div className='accServboxfake'></div>
@@ -43,7 +51,7 @@ const AccServices = () => {
                     {/* <div className='accServboxfake'></div> */}
 
                     <div className='accServbox'>
-                        <img className='accServboxImg' src={health} alt="img"></img>
+                        <img className='accServboxImg' src={health2} alt="img"></img>
                         <div className='accServboxHead'>Healthcare</div>
                     </div>
                     <div className='accServboxfake'></div>
