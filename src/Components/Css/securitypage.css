@@ -1,4 +1,5 @@
 .securitypage{
+    position: relative;
     display: flex;
     justify-content: center;
     /* background-color: lightpink; */
@@ -8,7 +9,7 @@
     margin-top: 50px;
     width: 1200px;
     height: fit-content;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
     /* background-color: lightgreen; */
 }
 .securitypageinner h4{

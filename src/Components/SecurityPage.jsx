@@ -12,7 +12,8 @@ const ServicePage = () => {
         { head: 'network security', content: "In order to enhance privacy from peers, completely secured VPN Network is implemented.Security of data is of key importance, therefore effective amenities for administrative check, auditing and reporting is conducted.Latest anti-virus, software that detect and fight malware, anti-phishing programs, spam blockers, URL filters, and other standard protections are installed, so that workstations and networks do not get infected." }
     ]
 
-    const colors = ["lightcoral", "lightseagreen", "lightpink", "lightslategray", "lightsalmon", "gray"];
+    const colors = ["lightcoral", "lightseagreen", "seagreen", "lightslategray", "lightsalmon", "gray"];
+    // const colors = ["darkgreen", "darkpurple", "magenta", "lightslategray", "lightsalmon", "gray"];
 
     return (
         <div>
