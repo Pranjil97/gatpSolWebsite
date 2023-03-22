@@ -1,0 +1,46 @@
+.securitypage{
+    display: flex;
+    justify-content: center;
+    /* background-color: lightpink; */
+    height: fit-content;
+}
+.securitypageinner{
+    margin-top: 50px;
+    width: 1200px;
+    height: fit-content;
+    margin-bottom: 150px;
+    /* background-color: lightgreen; */
+}
+.securitypageinner h4{
+    color:rgb(6, 88, 88);
+    font-size: 25px;
+}
+.securitypagebox{
+    display: flex;
+    /* gap: 20px; */
+    margin: 25px;
+    /* background-color: lightcoral; */
+    border: 2px solid darkcyan;
+}
+.securitypagebox1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 150px;
+    border-right: 2px solid darkcyan;
+    font-size: 30px;
+    color: white;
+    text-transform: uppercase;
+    /* background-color: lightgray; */
+}
+.securitypagebox2{
+    display: flex;
+    padding: 20px;
+    place-content: start;
+    width: 100%;
+    color: white;
+    text-align: start;
+    background-image: url('../Assets/background2.jpg');
+    /* background-color: lightseagreen; */
+}

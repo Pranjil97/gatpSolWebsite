@@ -2,6 +2,7 @@ import React from 'react'
 import location from './Assets/location.png'
 import email from './Assets/email.png'
 import telephone from './Assets/telephone.png'
+import copyright from './Assets/copyright.png'
 
 const Footer = () => {
     return (
@@ -56,6 +57,7 @@ const Footer = () => {
                 <div className='footeraddress2'><img className='locationgif' src={email} alt='email'></img> info@gatpsolutions.com</div>
                 <div className='footeraddress3'><img className='locationgif3' src={telephone} alt='email'></img>+91 120-4331555</div>
             </div>
+            <div className='copyright'>© GATP SOLUTIONS | All Rights Reserved.<img src={copyright} alt='img'></img> </div>
         </div>
     )
 }
