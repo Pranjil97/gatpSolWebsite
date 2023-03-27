@@ -1,4 +1,5 @@
 import React from 'react'
+import Accordian from './Accordian';
 import './Css/about.css'
 
 
@@ -16,7 +17,7 @@ const About = () => {
                     <p>With global melt down, organizations have realised that to succeed they not only have to be internally strong but also have effective financial control. Accounting has now taken a paradigm shift from casual statutory compliance to successful management implementation tool. As the old saying goes "you cannot mend it if you cannot measure it".</p>
                 </div>
                 <div className='aboutpageservice'>
-                    <h5>Our Services</h5>
+                    <Accordian />
                 </div>
             </div>
         </div>

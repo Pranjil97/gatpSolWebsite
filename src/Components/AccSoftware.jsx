@@ -18,54 +18,20 @@ import a16 from './Assets/a16.png'
 
 const AccSoftware = () => {
 
-    const data1 = [a1, a2, a3, a4, a5, a6, a7, a8]
-    const data2 = [a9, a10, a11, a12, a13, a14, a15, a16]
+    const data1 = [a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12, a13, a14, a15, a16]
 
     return (
         <div className="accSoft">
             <h3>Our Accounting Softwares</h3>
-            <marquee width="100%" direction="right" height='150px'>
-                <div className='accsoftin'>
-                    {data1.map((item, key) => {
-                        return <div className="accsoftinner" key={key}>
-                            <img className="accsoftimg" src={item} alt='img'></img>
+            <div className='accsoftinner'>
+                {data1.map((item, key) => {
+                    return <div className='accsoftinner2' key={key}>
+                        <div class="card2">
+                            <img src={item} alt='img'></img>
                         </div>
-                    })}
-                </div>
-            </marquee>
-            <marquee width="100%" direction="left" height='150px'>
-                <div className='accsoftin'>
-                    {data2.map((item, key) => {
-                        return <div className="accsoftinner" key={key}>
-                            <img className="accsoftimg" src={item} alt='img'></img>
-                        </div>
-                    })}
-                </div>
-            </marquee>
-            {/* <marquee width="100%" direction="right" height='150px'>
-                <div className="accsoftinner">
-                    <img className="accsoftimg" src={a1} alt='img'></img>
-                    <div className="accsoftimg">2</div>
-                    <div className="accsoftimg">3</div>
-                    <div className="accsoftimg">4</div>
-                    <div className="accsoftimg">5</div>
-                    <div className="accsoftimg">6</div>
-                    <div className="accsoftimg">7</div>
-                    <div className="accsoftimg">8</div>
-                </div>
-            </marquee> */}
-            {/* <marquee width="100%" direction="left" height='150px'>
-                <div className="accsoftinner">
-                    <div className="accsoftimg">9</div>
-                    <div className="accsoftimg">10</div>
-                    <div className="accsoftimg">11</div>
-                    <div className="accsoftimg">12</div>
-                    <div className="accsoftimg">13</div>
-                    <div className="accsoftimg">14</div>
-                    <div className="accsoftimg">15</div>
-                    <div className="accsoftimg">16</div>
-                </div>
-            </marquee> */}
+                    </div>
+                })}
+            </div>
         </div>
     )
 }

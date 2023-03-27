@@ -22,14 +22,16 @@ const WorkPro = () => {
             {/* <img className='workproarrow2' src={rarrow} alt='arrow'></img> */}
             <div className='workprobox'>
                 {data.map((item, key) => {
-                    return <div key={key} className='workprobox1'>
-                        <div className='workprobox1inner1'>
-                            <div>{item.step}</div>
-                            {/* <img className='workprobox1img' src={item.img} alt='img'></img> */}
+                    return <div class="content">
+                        <div key={key} className='workprobox1'>
+                            <div className='workprobox1inner1'>
+                                <div>{item.step}</div>
+                                {/* <img className='workprobox1img' src={item.img} alt='img'></img> */}
+                            </div>
+                            <h4>{item.heading}</h4>
+                            {/* <img className='workprobox1img' src={mobilephone} alt='phone'></img> */}
+                            <div className='workprobox1inner2'>{item.content}</div>
                         </div>
-                        <h4>{item.heading}</h4>
-                        {/* <img className='workprobox1img' src={mobilephone} alt='phone'></img> */}
-                        <div className='workprobox1inner2'>{item.content}</div>
                     </div>
                 })}
             </div>

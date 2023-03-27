@@ -3,7 +3,7 @@ import '../App.css';
 // import logo from './Assets/Logo.png'
 
 const Navbar = (props) => {
-    const { page, setPage } = props;
+    const { setPage } = props;
     return (
         <nav className='nav'>
             <div className='logo'>LOGO</div>

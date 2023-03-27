@@ -6,42 +6,56 @@
     margin-top: 120px;
     height: 1000px;
     margin-bottom: 100px;
-    background-image: url('../Assets//background2.jpg');
+    /* background-image: url('../Assets//background2.jpg'); */
     /* background-color: darkcyan; */
     /* border: 1px solid black;    */
 }
 .workpro h3{
+  width: 300px;
     margin-top: 80px;
-    color: darkcyan;
+    color: white;
     margin-bottom: 100px;
+    border-bottom: 2px dashed white;
     font-size: 30px;
 }
 .workprobox{
     display: flex;
-    justify-content: center;
+    justify-content: start;
     flex-wrap: wrap;
-    width: 1200px;
+    width: 1175px;
     gap: 70px;
     /* background-color: lightcoral; */
 }
 .workprobox1{
     border-radius: 2px;
-    width: 350px;
-    height: 300px;
+    width: 340px;
+    height: 320px;
     border-radius: 5px;
-    background-color: white;
-    border: 1px solid black;
+    border: 2px solid darkcyan;
+    border-radius: 30px;
+    background: #105d6b;
+    box-shadow: inset 0px 0px 15px 10px rgba(1, 20, 20, 0.5);
+    transition: all 0.7s;
+}
+.workprobox1:hover{
+    box-shadow: 2px 2px 15px 15px rgb(0, 27, 27);
+    transform: scale(1.05);
+  /* box-shadow: 10px 10px 20px rgb(197, 194, 194),-10px -10px 20px rgb(197, 194, 194); */
+}
+.workprobox1inner1:active {
+    transform: scale(0.95) rotateZ(1.7deg);
 }
 .workprobox1inner1{
     display: flex;
     justify-items: center;
     align-items: center;
     padding: 5px;
+    width: 250px;
     height: 90px;
     /* background-color: lightcoral; */
 }
 .workprobox1inner1 div{
-    color: darkcyan;
+    color: white;
     margin-left: 20px;
     font-size: 30px;
     /* text-transform: uppercase; */
@@ -52,12 +66,12 @@
     margin: 5px;
     margin-left: 20px;
     font-size: 18px;
-    color: darkcyan;
+    color: white;
     /* width: fit-content; */
     /* background-color: lightslategray; */
 }
 .workprobox1inner2{
-    color: gray;
+    color: white;
     text-align: left;
     padding: 20px;
     /* background-color: lightsalmon; */

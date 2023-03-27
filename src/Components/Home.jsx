@@ -14,8 +14,8 @@ const Home = () => {
                 <Carousel />
             </div>
             <Services />
-            <AccServices />
             <AccSoftware />
+            <AccServices />
             <WorkPro />
             <Security />
         </div>

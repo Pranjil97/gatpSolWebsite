@@ -1,7 +1,7 @@
 .App {
   text-align: center;
-  /* background-color: cadetblue; */
-  /* background-image: url('./Components/Assets//background.jpg'); */
+  /* background-color: black; */
+  background-image: url('./Components/Assets/background2.jpg');
 }
 
 .logo{
@@ -14,11 +14,9 @@
 .nav {
   margin: auto;
   margin-top: 15px;
-  /* background: transparent; */
   width:850px;
   display: flex;
   flex-direction:row;
-  /* justify-content: center; */
   align-items: center;
   height: 65px;
   border-radius: 20px;
@@ -32,9 +30,7 @@
 }
 .logo{
   width: fit-content;
-  /* background-color: red; */
   font-size: 30px;
-  /* margin: 50px; */
 }
 
 .imag{
@@ -61,10 +57,16 @@
   color: white;
   cursor: pointer;
   box-shadow: 2px 2px 2px rgb(42, 116, 116);
+  transition: all 0.3s ease 0s;
 }
 .logbtn:hover{
-  font-weight:bold;
+  font-weight:700;
+  background-color: #23c483;
+  transform: translateY(-4px);
   /* color:darkcyan; */
+}
+.logbtn:active{
+  transform: translateY(-1px);
 }
 
 .nav ul {
@@ -82,13 +84,19 @@
   /* color: white; */
   font-weight: 500;
   cursor: pointer;
+  transition: all 0.3s ease 0s;
   /* text-transform: uppercase; */
 }
 
 .nav ul li:hover{
   font-weight:bold;
   color:darkcyan;
+  color: #23c483;
+  transform: translateY(-4px);
   /* color:white; */
+}
+.nav ul li:active{
+  transform: translateY(-1px);
 }
 
 .footer{

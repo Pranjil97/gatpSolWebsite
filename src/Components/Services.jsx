@@ -24,7 +24,7 @@ const Services = () => {
             <h2>Our Services</h2>
             <div className='servbox'>
                 {data.map((item, key) => {
-                    return <div className='svbox' key={key}>
+                    return <div className='card' key={key}>
                         <img className='svimg' src={item.image} alt='img'></img>
                         <h4>{item.heading}</h4>
                         <p>{item.content}</p>
