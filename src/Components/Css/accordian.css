@@ -1,0 +1,38 @@
+.aboutpageservice{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    width: 1060px;
+    height: 400px;
+    color: black;
+    border: 2px solid darkcyan;
+}
+.aboutpageservice h5{
+    color: black;
+    font-size: 30px;
+}
+
+
+
+.sign {
+    font-size: 25px;
+}
+.accordian {
+    width: 300px;
+    border: 1px solid rgb(133, 133, 133);
+}
+  .accordian-header {
+    font-weight: 600;
+    font-size: 18px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 15px;
+    border: 2px solid rgb(133, 133, 133);
+    background-color: rgb(255, 255, 143);
+  }
+  .accordian-body {
+    padding: 15px 5px;
+}

@@ -17,6 +17,7 @@ const About = () => {
                     <p>With global melt down, organizations have realised that to succeed they not only have to be internally strong but also have effective financial control. Accounting has now taken a paradigm shift from casual statutory compliance to successful management implementation tool. As the old saying goes "you cannot mend it if you cannot measure it".</p>
                 </div>
                 <div className='aboutpageservice'>
+                    <h3>Our Services</h3>
                     <Accordian />
                 </div>
             </div>

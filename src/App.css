@@ -223,10 +223,12 @@
   height: 140px;
   /* background-color: white; */
   /* background-color: darkcyan; */
-  background-image: linear-gradient(to bottom,darkcyan, white);
+  background-image: url('./Components//Assets//background2.jpg');
+  /* background-image: linear-gradient(to bottom,darkcyan, white); */
 }
 .currenttab span{
   margin-right:25px ;
-  color:rgb(0, 83, 83);
+  color: whitesmoke;
+  /* color:rgb(0, 83, 83); */
   font-weight: bold;
 }

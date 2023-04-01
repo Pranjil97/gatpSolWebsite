@@ -10,27 +10,14 @@
 .aboutpageinner{
     padding: 30px;
     margin-top: 50px;
-    width: 1000px;
+    width: 1100px;
     height: 300px;
     /* margin-top: 50px; */
     /* background-color: lightgreen; */
     color: black;
 }
 .aboutpageinner p{
+    font-style: italic;
     color: wheat;
     font-size: 20px;
-}
-.aboutpageservice{
-    display: flex;
-    justify-content: center;
-    margin-top: 150px;
-    width: 1060px;
-    height: 400px;
-    /* background-color: lightsalmon; */
-    color: black;
-    border: 2px solid darkcyan;
-}
-.aboutpageservice h5{
-    color: black;
-    font-size: 30px;
 }
