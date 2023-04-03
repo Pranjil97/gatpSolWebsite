@@ -4,6 +4,7 @@ import About from './Components/About';
 import ContactUsPage from './Components/ContactUsPage';
 import Footer from './Components/Footer';
 import Home from './Components/Home';
+import Login from './Components/Login';
 import Navbar from './Components/Navbar';
 import ServicePage from './Components/SecurityPage';
 function App() {
@@ -17,6 +18,7 @@ function App() {
       {page === 1 ? <About /> : null}
       {page === 2 ? <ServicePage /> : null}
       {page === 3 ? <ContactUsPage /> : null}
+      {page === 4 ? <Login /> : null}
       <Footer />
     </div>
   );

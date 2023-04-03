@@ -1,38 +1,52 @@
 .aboutpageservice{
-    background-color: white;
+    /* background-color: white; */
     display: flex;
     flex-direction: column;
     margin-top: 150px;
-    width: 1060px;
-    height: 400px;
-    color: black;
-    border: 2px solid darkcyan;
+    width: 1150px;
+    height: fit-content;
+    /* border: 2px solid darkcyan; */
+    margin-bottom: 150px;
 }
-.aboutpageservice h5{
-    color: black;
+.accordianpage{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: fit-content;
+    gap: 20px;
+}
+.aboutpageservice h3{
+    color: white;
     font-size: 30px;
 }
-
-
-
 .sign {
     font-size: 25px;
 }
 .accordian {
-    width: 300px;
-    border: 1px solid rgb(133, 133, 133);
+    /* display: flex; */
+    width: 100%;
+    text-align: start;
+    /* border: 1px solid rgb(133, 133, 133); */
 }
-  .accordian-header {
+.accordian-header {
     font-weight: 600;
-    font-size: 18px;
+    font-size: 15px;
     cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 1120px;
+    color: white;
+    /* border: 2px solid rgb(133, 133, 133); */
+    /* background-color: rgb(255, 255, 143); */
+    border-radius: 5px;
+    background-color: darkcyan;
+}
+.accordian-body {
+    background-color: rebeccapurple;
+    color: white;
+    border-radius: 5px;
     padding: 15px 15px;
-    border: 2px solid rgb(133, 133, 133);
-    background-color: rgb(255, 255, 143);
-  }
-  .accordian-body {
-    padding: 15px 5px;
 }

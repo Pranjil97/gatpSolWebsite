@@ -20,7 +20,7 @@
 }
 .workprobox{
     display: flex;
-    justify-content: start;
+    justify-content: center;
     flex-wrap: wrap;
     width: 1175px;
     gap: 70px;

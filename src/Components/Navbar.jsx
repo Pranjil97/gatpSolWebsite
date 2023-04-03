@@ -14,7 +14,7 @@ const Navbar = (props) => {
                 <li onClick={() => { setPage(2) }}>Security</li>
                 <li onClick={() => { setPage(3) }}>Contact US</li>
             </ul>
-            <div className='logbtn'>Login</div>
+            <div onClick={() => { setPage(4) }} className='logbtn'>Login</div>
         </nav>
     )
 }

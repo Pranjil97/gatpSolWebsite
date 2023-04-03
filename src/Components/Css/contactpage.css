@@ -8,19 +8,34 @@
 }
 .contactpageinner{
     display: flex;
+    justify-content: center;
+    align-items: center;
     margin-top: 100px;
-    width: 1200px;
+    width: 1250px;
     height: 500px;
     border-radius: 10px;
-    /* border: 3px solid lightgray; */
+    /* border: 3px solid green; */
+    gap: 30px;
     /* background-color: lightgreen; */
 }
 .contactpageform{
     width: 800px;
     height: 425px;
-    box-shadow: inset 0px 0px 10px 5px rgba(4, 97, 97, 0.5);
+    background: transparent;
+    border-radius: 1rem;
+    border: darkcyan 0.2rem solid;
+    transition: all 0.4s ease-in;
+    box-shadow: 0.4rem 0.4rem 0.6rem #00000040;
+    /* box-shadow: inset 0px 0px 10px 5px rgba(4, 97, 97, 0.5); */
     /* background-image: url('../Assets/background2.jpg'); */
     /* background-color: lightskyblue; */
+}
+.contactpageform:hover {
+    background-color: #212121;
+    /* background-color: transparent; */
+    transform: translateY(-1.5rem);
+    border: #f2295bf0 0.2em solid;
+    border-radius: 2.5rem 0 2.5rem 0;
 }
 .contactpageaddress{
     /* position: relative; */
@@ -30,9 +45,21 @@
     align-items: center;
     width: 400px;
     height: 420px;
-    border: 2px solid darkcyan;
+    /* background-color: #212121; */
+    border-radius: 1rem;
+    border: darkcyan 0.2rem solid;
+    transition: all 0.4s ease-in;
+    box-shadow: 0.4rem 0.4rem 0.6rem #00000040;
+    /* border: 2px solid darkcyan; */
     /* box-shadow: inset 0px 0px 10px 5px rgba(4, 97, 97, 0.5); */
     /* background-color: cornflowerblue; */
+}
+.contactpageaddress:hover{
+    background-color: #212121;
+    border: #f2295bf0 0.2em solid;
+}
+.contactpageaddress div span{
+    color: white;
 }
 .cont1{
     display: flex;
@@ -45,6 +72,17 @@
     border-bottom: 1px solid darkcyan ;
     /* background-color: darkslategrey; */
 }
+.cont1:hover{
+    color: white;
+    border-bottom: #f2295bf0 0.2em solid;
+}
+.cont2:hover{
+    color: white;
+    border-bottom: #f2295bf0 0.2em solid;
+}
+.cont3:hover{
+    color: white;
+}
 .cont2{
     display: flex;
     align-items: center;
@@ -55,6 +93,9 @@
     font-weight: 500;
     border-bottom: 1px solid darkcyan ;
     /* background-color: darkslategrey; */
+}
+.cont2:hover{
+    border-bottom: #f2295bf0 0.2em solid;
 }
 .cont3{
     display: flex;
@@ -122,7 +163,7 @@
     font-size: 16px;
     border: 1px solid darkcyan;
     outline-width: thick;
-    outline-color: darkcyan;
+    outline-color: #f2295bf0;
     /* outline-offset: none; */
 }
 .contactpagemessageinput{
@@ -134,7 +175,7 @@
     border-radius:10px;
     border: 1px solid darkcyan;
     outline-width: thick;
-    outline-color: darkcyan;
+    outline-color:  #f2295bf0;
     font-size: 16px;
 }
 .contactpagetextarea{
@@ -146,7 +187,7 @@
     border-radius:10px;
     border: 1px solid darkcyan;
     outline-width: thick;
-    outline-color: darkcyan;
+    outline-color:  #f2295bf0;
     font-size: 16px;
 }
 .formbtn{
