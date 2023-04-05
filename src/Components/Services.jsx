@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import bookkeep from './Assets/bookkeep.jpg'
 import accpay from './Assets/accpay.jpg'
 import accrev from './Assets/accrev.jpg'
@@ -6,8 +6,15 @@ import banking from './Assets/banking.jpg'
 import financial from './Assets/financial.jpg'
 import payroll from './Assets/payroll.jpg'
 import tax from './Assets/tax.jpg'
+import Aos from 'aos';
+import "aos/dist/aos.css";
 
 const Services = () => {
+
+    useEffect(() => {
+        Aos.init({ duration: 3000 })
+    }, [])
+
 
     const data = [
         { image: [bookkeep], heading: "Book keeping Services", content: "Keeping your accounting records up-to-date often is a time-intensive and an expensive practice for almost any business, rendering little apparent added value." },

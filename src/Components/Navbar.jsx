@@ -1,11 +1,26 @@
-import React from 'react'
+import React, { useState } from 'react'
 import '../App.css';
 // import logo from './Assets/Logo.png'
 
 const Navbar = (props) => {
+    const [navbar, setnavBar] = useState(false)
     const { setPage } = props;
+
+    const changeBackground = () => {
+        // console.log(window.scrollY)
+        if (window.scrollY >= 80) {
+            setnavBar(true)
+        }
+        else {
+            setnavBar(false)
+        }
+    }
+
+    window.addEventListener('scroll', changeBackground)
+
+
     return (
-        <nav className='nav'>
+        <nav className={navbar ? 'nav active' : 'nav'}>
             <div className='logo'>LOGO</div>
             {/* <div className='imag'><img className='imaginside' src={logo} alt="img"></img></div> */}
             <ul>
