@@ -8,18 +8,18 @@ const Login = () => {
                 <span>You are here: Home / Login</span>
             </div>
             <div className='loginpage'>
-                <div class="login-box">
+                <div className="login-box">
                     <p>Login</p>
                     <form>
-                        <div class="user-box">
+                        <div className="user-box">
                             <input required="" name="" type="text" />
                             <label>Email</label>
                         </div>
-                        <div class="user-box">
+                        <div className="user-box">
                             <input required="" name="" type="password" />
                             <label>Password</label>
                         </div>
-                        <a href="#">
+                        <a href="/">
                             <span></span>
                             <span></span>
                             <span></span>
@@ -27,7 +27,7 @@ const Login = () => {
                             Submit
                         </a>
                     </form>
-                    <p>Don't have an account? <a href="" class="a2">Sign up!</a></p>
+                    <p>Don't have an account? <a href="/" className="a2">Sign up!</a></p>
                 </div>
             </div>
         </div>

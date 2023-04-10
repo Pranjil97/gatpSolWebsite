@@ -24,7 +24,7 @@ const ServicePage = () => {
                 <div className='securitypageinner'>
                     <h4>SECURITY - GATP SOLUTIONS</h4>
                     <div className="securitypageinner2">
-                        <div class="card-overlay"></div>
+                        <div className="card-overlay"></div>
                         {data.map((item, index) => {
                             return <div key={index} className='securitypagebox'>
                                 {/* <div className='securitypagebox1' style={{ backgroundColor: colors[index % colors.length] }}>{item.head}</div> */}

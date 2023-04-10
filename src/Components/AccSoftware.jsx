@@ -33,7 +33,7 @@ const AccSoftware = () => {
             <div className='accsoftinner'>
                 {data1.map((item, key) => {
                     return <div data-aos="fade-up-right" className='accsoftinner2' key={key}>
-                        <div class="card2">
+                        <div className="card2">
                             <img src={item} alt='img'></img>
                         </div>
                     </div>

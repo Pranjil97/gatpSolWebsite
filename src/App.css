@@ -25,6 +25,7 @@
   background: transparent;
   color: white;
   transition: all 0.7s;
+  z-index: 1000;
   /* background:white; */
   /* background-color: white; */
   /* box-shadow: inset 0px 0px 10px 5px rgba(4, 97, 97, 0.5); */
@@ -187,8 +188,8 @@
 .footcol1{
   display: flex;
   flex-direction: column;
-  justify-content: start;
-  align-items: start;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 .footcol1 h4{
   margin-left: 40px;
@@ -201,7 +202,7 @@
 .footcol1 ul li{
   margin: 5px;
   list-style-type: none;
-  text-align: start;
+  text-align: flex-start;
   /* margin-left: 60px; */
   cursor: pointer;
 }
@@ -230,8 +231,8 @@
 }
 .currenttab{
   display: flex;
-  justify-content: end;
-  align-items: end;
+  justify-content: flex-end;
+  align-items: flex-end;
   /* margin-top: 100px; */
   width: 100%;
   height: 140px;
@@ -245,4 +246,25 @@
   color: whitesmoke;
   /* color:rgb(0, 83, 83); */
   font-weight: bold;
+}
+
+
+
+@media only screen and (max-width:480px) {
+  .App {
+    width: 480px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    /* background-color:black; */
+    /* background-image: none; */
+    background-image: url('./Components/Assets/background2.jpg');
+  }  
+
+  .nav{
+    display: none;
+  }
+  .footer{
+    display: none;
+  }
 }

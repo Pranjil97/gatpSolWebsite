@@ -49,15 +49,12 @@ const Footer = () => {
                 </div>
             </div>
             <div className='footeraddress'>
-                <div className='footeraddress1'><img className='locationgif' src={location} alt='location'></img>GATP Solutions India office
-                    AAG-02-03, Shipra Krishna Azure Complex,
-                    Near Wave cinema hall &
-                    Kaushambi Metro Station,
-                    Ghaziabad, UP (India)</div>
-                <div className='footeraddress2'><img className='locationgif' src={email} alt='email'></img> info@gatpsolutions.com</div>
-                <div className='footeraddress3'><img className='locationgif3' src={telephone} alt='email'></img>+91 120-4331555</div>
+                <div className='footeraddress1'><img className='locationgif' src={location} alt='location'></img>Innovational Accounting,
+                    95, Sector-24, Rohini, New Delhi</div>
+                <div className='footeraddress2'><img className='locationgif' src={email} alt='email'></img>info@innovationalaccounting.com</div>
+                <div className='footeraddress3'><img className='locationgif3' src={telephone} alt='email'></img>8586801839 , 7838021171</div>
             </div>
-            <div className='copyright'>© GATP SOLUTIONS | All Rights Reserved.<img src={copyright} alt='img'></img> </div>
+            <div className='copyright'>© Innovational Accounting | All Rights Reserved.<img src={copyright} alt='img'></img> </div>
         </div>
     )
 }
