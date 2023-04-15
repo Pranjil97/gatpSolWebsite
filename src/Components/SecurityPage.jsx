@@ -1,7 +1,11 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './Css/securitypage.css'
 
 const ServicePage = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    });
 
     const data = [
         { head: 'resistance', content: "It is true that any business may face and will have to fight counter attacks by several unknown sources. In order to sustain in the long run, it is important to form defense strategies and strengthen the security architecture. Hence, security technologies are formed which consist of forming the right processes, to get rid of unwanted elements, implement safety filters to fight malware attacks, manage right of entry to data, protect web applications etc.. It is important to note that the term resist is used and not protect." },
@@ -22,7 +26,7 @@ const ServicePage = () => {
             </div>
             <div className='securitypage'>
                 <div className='securitypageinner'>
-                    <h4>SECURITY - GATP SOLUTIONS</h4>
+                    <h4>SECURITY - Innovational Accounting</h4>
                     <div className="securitypageinner2">
                         <div className="card-overlay"></div>
                         {data.map((item, index) => {

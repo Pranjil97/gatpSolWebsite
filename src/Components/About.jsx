@@ -1,9 +1,14 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Accordian from './Accordian';
 import './Css/about.css'
 
-
 const About = () => {
+
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    });
+
     const head = [
         { head: "Finance and Accounting", content: "For ensuring the final report to be accurate, initial book entry needs to be precise & in sync with the final result. GATP, due to it's vast exposure ensures that the same is being taken care of with high professionalism.Know More" },
         { head: "Finance Planning & Analysis", content: "While planning for our long term growth, we tend to focus more on our core competencies, overlooking certain important data. Our financial reporting services can help you assess your company’s financial performance and also take timely business decisions.Know More" },
@@ -18,9 +23,8 @@ const About = () => {
             </div>
             <div className='aboutpage'>
                 <div className='aboutpageinner'>
-                    <p>Welcome to GATP SOLUTIONS
-                        GATP Solutions is a growing organization with global delivery potential, dedicated to provide outsourced Finance and Accounting expertise.</p>
-                    <p>By virtue of its business focus and experienced team, GATP Solutions provides services to its clients enabling them to completely focus on their core competencies.</p>
+                    <p>Welcome to Innovational Accounting is a growing organization with global delivery potential, dedicated to provide outsourced Finance and Accounting expertise.</p>
+                    <p>By virtue of its business focus and experienced team, Innovational Accounting provides services to its clients enabling them to completely focus on their core competencies.</p>
                     <p>With global melt down, organizations have realised that to succeed they not only have to be internally strong but also have effective financial control. Accounting has now taken a paradigm shift from casual statutory compliance to successful management implementation tool. As the old saying goes "you cannot mend it if you cannot measure it".</p>
                 </div>
                 <div className='aboutpageservice'>

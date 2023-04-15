@@ -32,7 +32,7 @@ const Footer = () => {
                         <li><a>Retail & Wholesale</a></li>
                         <li><a>Manufacturing Accounting</a></li>
                         <li><a>Logistic Accounting</a></li>
-                        <li><a>Accounting For Doctors & Dentists</a></li>
+                        <li><a>Accounting For Doctors&Dentists</a></li>
                     </ul>
                 </div>
 

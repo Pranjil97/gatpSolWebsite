@@ -14,17 +14,14 @@
 .nav {
   margin: auto;
   display: flex;
-  width: 900px;
+  width: 100%;
   flex-direction:row;
   align-items: center;
-  height: 65px;
-  margin-top: 15px;
+  height: 70px;
   position: fixed;
-  left: 20%;
-  top: 0;
-  background: transparent;
-  color: white;
-  transition: all 0.7s;
+  background: white;
+  color: darkcyan;
+  transition: all 0.8s;
   z-index: 1000;
   /* background:white; */
   /* background-color: white; */
@@ -33,27 +30,22 @@
   /* background-image: linear-gradient(to right,#09203F, #537895); */
 }
 .nav.active{
+  margin-top: 15px;
   width:850px;
   border-radius: 20px;
   background-color: white;
   color: darkcyan;
+  left: 20%;
 }
 .logo{
   width: fit-content;
-  font-size: 30px;
-}
-
-.imag{
-  background-color: white;
-  height:100%;
-  width: 300px;
-  /* margin-left: 50px; */
+  height: fit-content;
+  /* background-color: #23c483; */
 }
 
 .imaginside{
-  height: 60px;
+  height: 65px;
 }
-
 
 .logbtn{
   display: flex;
@@ -63,9 +55,10 @@
   background-color: darkcyan;
   width: 100px;
   height: 40px;
-  margin-right: 20px;
+  margin-right: 50px;
   color: white;
   cursor: pointer;
+  text-decoration: none;
   box-shadow: 2px 2px 2px rgb(42, 116, 116);
   transition: all 0.3s ease 0s;
 }
@@ -73,6 +66,7 @@
   font-weight:700;
   background-color: #23c483;
   transform: translateY(-4px);
+  text-decoration: none;
   /* color:darkcyan; */
 }
 .logbtn:active{
@@ -86,10 +80,13 @@
   align-items: center;
   /* width: fit-content; */
   display: flex;
+  height: 100%;
   flex-direction: row;
-  gap: 50px;
+  gap: 60px;
   margin: auto;
-  margin-left: 80px;
+  color: darkcyan;
+  text-decoration: none;
+  /* background-color: thistle; */
 }
 
 .nav ul li {
@@ -100,6 +97,7 @@
   letter-spacing: 1px;
   cursor: pointer;
   transition: all 0.3s ease 0s;
+  color: darkcyan;
   /* text-transform: uppercase; */
 }
 
@@ -141,9 +139,10 @@
   /* border: 1px solid white; */
   width: 350px;
   height: 350px;
+  display: flex;
   /* background-color: rgb(0, 66, 66); */
-  /* border: 1px solid darkcyan; */
-  background-image: linear-gradient(rgb(5, 59, 59),darkcyan);
+  border: 1px solid darkcyan;
+  /* background-image: linear-gradient(rgb(5, 59, 59),darkcyan); */
   border-radius: 5%;
 }
 
@@ -201,10 +200,15 @@
 }
 .footcol1 ul li{
   margin: 5px;
+  display: flex;
+  flex-wrap: wrap;
   list-style-type: none;
   text-align: flex-start;
   /* margin-left: 60px; */
   cursor: pointer;
+  height: fit-content;
+  width: fit-content;
+  /* background-color: #23c483; */
 }
 .footcol1 ul li::before{
   margin-right: 10px;

@@ -1,7 +1,12 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './Css/login.css'
 
 const Login = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    });
+
     return (
         <div>
             <div className='currenttab'>
@@ -27,7 +32,7 @@ const Login = () => {
                             Submit
                         </a>
                     </form>
-                    <p>Don't have an account? <a href="/" className="a2">Sign up!</a></p>
+                    <p>Don't have an account? <a href="" className="a2">Sign up!</a></p>
                 </div>
             </div>
         </div>

@@ -1,10 +1,16 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import './Css/contactpage.css'
 import location from './Assets/location.png'
 import email from './Assets/email.png'
 import telephone from './Assets/telephone.png'
 
 const ContactUsPage = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    });
+
+
     const [formData, setFormData] = useState({
         name: "",
         email: "",
@@ -77,24 +83,21 @@ const ContactUsPage = () => {
                                 <img src={location} alt='img'></img>
                                 <span>Visit Us</span>
                             </span>
-                            <span className='continner2'>AAG02-03, Shipra Krishna Azure Complex,
-                                Near Wave cinema hall &
-                                Kaushambi Metro Station,
-                                Ghaziabad, UP (India)</span>
+                            <span className='continner2'>95, Sector-24, Rohini, New Delhi</span>
                         </div>
                         <div className='cont2' >
                             <span className='continner1'>
                                 <img src={email} alt='img'></img>
                                 <span>Email Us</span>
                             </span>
-                            <span className='continner2'>info@gatpsolutions.com</span>
+                            <span className='continner2'>info@innovationalaccounting.com</span>
                         </div>
                         <div className='cont3'>
                             <span className='continner1 '>
                                 <img src={telephone} alt='img'></img>
                                 <span>Call Us</span>
                             </span>
-                            <span className='continner2'>+91 120-4331555</span>
+                            <span className='continner2'>8586801839 , 7838021171</span>
                         </div>
                     </div>
                 </div>
