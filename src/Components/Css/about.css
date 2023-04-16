@@ -21,3 +21,30 @@
     color: wheat;
     font-size: 20px;
 }
+
+@media screen and (min-width: 1201px) {
+
+    .aboutpage{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: fit-content;
+    }
+    .aboutpageinner{
+        padding: 30px;
+        margin-top: 50px;
+        width: fit-content;
+        height: fit-content;
+        /* background-color: lightgreen; */
+        color: black;
+    }
+    .aboutpageinner p{
+        font-style: italic;
+        color: wheat;
+        font-size: 20px;
+    }
+    
+
+  }
+  

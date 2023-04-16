@@ -8,7 +8,7 @@ const Carousel = () => {
             <div className='mainhead'><Typewrite /></div>
             <div className='firstinput'>
                 <div className="inputbox">
-                    <input required="required" type="text" />
+                    <input required="required" type="text" placeholder='Email ID' />
                     <span>EMAIL ID</span>
                     <i></i>
                 </div>

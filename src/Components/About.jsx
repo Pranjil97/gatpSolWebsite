@@ -25,7 +25,9 @@ const About = () => {
                 <div className='aboutpageinner'>
                     <p>Welcome to Innovational Accounting is a growing organization with global delivery potential, dedicated to provide outsourced Finance and Accounting expertise.</p>
                     <p>By virtue of its business focus and experienced team, Innovational Accounting provides services to its clients enabling them to completely focus on their core competencies.</p>
-                    <p>With global melt down, organizations have realised that to succeed they not only have to be internally strong but also have effective financial control. Accounting has now taken a paradigm shift from casual statutory compliance to successful management implementation tool. As the old saying goes "you cannot mend it if you cannot measure it".</p>
+                    <p>With global melt down, organizations have realised that to succeed they not only have to be internally strong but also have effective financial control. </p>
+                    <p>Accounting has now taken a paradigm shift from casual statutory compliance to successful management implementation tool.</p>
+                    <p>As the old saying goes "you cannot mend it if you cannot measure it".</p>
                 </div>
                 <div className='aboutpageservice'>
                     <h3>Our Services</h3>

@@ -1,11 +1,12 @@
-.mainpage{
+.mainpage {
     padding: 20px;
     width: 800px;
     height: 500px;
     margin-top: 100px;
     margin-left: 160px;
 }
-.mainhead{
+
+.mainhead {
     display: flex;
     align-items: flex-end;
     margin-left: 30px;
@@ -15,19 +16,21 @@
     font-size: 30px;
     color: white;
 }
-.caro{
+
+.caro {
     display: flex;
     justify-content: center;
     align-items: center;
     background-image: url('../Assets/meeting4.jpg');
     height: 100vh;
-    width:inherit;
+    width: inherit;
     margin: auto;
     border: 0px solid gray;
     background-repeat: no-repeat;
     background-size: cover;
 }
-.firstinput{
+
+.firstinput {
     display: flex;
     align-items: center;
     margin-left: 20px;
@@ -36,15 +39,16 @@
     width: 380px;
     color: black;
 }
+
 .inputbox {
     height: 40px;
     padding: 2px;
     overflow: hidden;
     position: relative;
     width: 240px;
-  }
+}
 
-  .inputbox input {
+.inputbox input {
     overflow: hidden;
     font-size: 15px;
     font-weight: 600;
@@ -63,7 +67,7 @@
     transition: 0.5s;
     z-index: 10;
 }
-  
+
 .inputbox span {
     overflow: hidden;
     position: absolute;
@@ -77,15 +81,15 @@
     pointer-events: none;
     color: white;
 }
-  
-  .inputbox input:valid ~span,
-  .inputbox input:focus ~span {
+
+.inputbox input:valid~span,
+.inputbox input:focus~span {
     color: white;
     transform: translateX(-10px) translateY(-34px);
-    font-size: 0,75em;
-  }
-  
-  .inputbox i {
+    font-size: 0, 75em;
+}
+
+.inputbox i {
     overflow: hidden;
     position: absolute;
     left: 0;
@@ -97,15 +101,15 @@
     transition: 0.5s;
     pointer-events: none;
     z-index: 9;
-  }
-  
-  .inputbox input:valid ~i,
-  .inputbox input:focus ~i {
+}
+
+.inputbox input:valid~i,
+.inputbox input:focus~i {
     overflow: hidden;
     height: 44px;
-  }
+}
 
- .mainbtn {
+.mainbtn {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -122,30 +126,30 @@
     background: #e8e8e8;
     font-weight: 1000;
     font-size: 11px;
-    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
-    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
     transition: all 250ms;
     overflow: hidden;
-   }
-   
+}
 
-   
+
+
 .mainbtn:hover {
     background-color: #212121;
     color: #e8e8e8;
 }
-   
 
 
-.service{
+
+.service {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
     margin-top: 80px;
-} 
+}
 
-.service h2{
+.service h2 {
     font-size: 30px;
     width: fit-content;
     margin: auto;
@@ -154,25 +158,26 @@
     border-bottom: 2px dashed white;
 }
 
-.servbox{
+.servbox {
     display: flex;
     flex-wrap: wrap;
     place-content: flex-start;
     align-content: flex-start;
     padding: 20px;
-    gap: 20px; 
+    gap: 20px;
     margin-top: 80px;
     width: 1100px;
     height: fit-content;
 }
 
-.svimg{
+.svimg {
     overflow: hidden;
     height: 200px;
     width: 100%;
 }
+
 .card {
-    margin: auto;
+    /* margin: auto; */
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -195,31 +200,35 @@
     font-weight: bolder;
     color: black;
 }
-.card img{
+
+.card img {
     background-color: lightcoral;
 }
-.card h4{
+
+.card h4 {
     font-size: 22px;
     /* background-color: lightseagreen; */
 }
-.card p{
+
+.card p {
     margin-top: -10px;
     padding: 10px;
     height: 90px;
     text-align: flex-start;
     font-size: 14px;
 }
+
 .card:hover {
-    color:white;
+    color: white;
     border: 1px solid white;
     transform: scale(1.05);
 }
-  
+
 .card:active {
     transform: scale(0.95) rotateZ(1.7deg);
 }
 
-.accServ{
+.accServ {
     position: inherit;
     display: flex;
     flex-direction: column;
@@ -235,7 +244,7 @@
     /* padding: 50px; */
 }
 
-.accServ h2{
+.accServ h2 {
     width: fit-content;
     color: white;
     margin-top: 50px;
@@ -243,7 +252,8 @@
     font-size: 30px;
     border-bottom: 1px dashed white;
 }
-.accserv2{
+
+.accserv2 {
     justify-content: center;
     /* margin: auto; */
     flex-wrap: wrap;
@@ -253,7 +263,8 @@
     display: flex;
     /* gap: 40px; */
 }
-.accServbox{
+
+.accServbox {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -262,12 +273,14 @@
     width: fit-content;
     /* border: 1px solid darkcyan; */
 }
-.accServboxfake{
+
+.accServboxfake {
     width: 50px;
     height: 50px;
     /* background-color: red; */
 }
-.accServboxImg{
+
+.accServboxImg {
     /* background-color: red; */
     /* background-color:black; */
     width: 60px;
@@ -278,24 +291,27 @@
     aspect-ratio: 3/2;
     object-fit: contain;
 }
-.accServboxHead{
+
+.accServboxHead {
     color: darkgray;
     width: fit-content;
-    font-size:20px;
+    font-size: 20px;
     cursor: pointer;
     /* background-color: red; */
     margin: 40px;
 }
-.accServboxHead:hover{
+
+.accServboxHead:hover {
     color: white;
     font-weight: bold;
     /* font-size: x-large; */
 }
-.accservboximg2{
+
+.accservboximg2 {
     height: 10px;
 }
 
-.accSoft{
+.accSoft {
     margin-top: 80px;
     display: flex;
     flex-direction: column;
@@ -306,17 +322,19 @@
     /* background-color: lightcoral; */
     /* background-image: url('../Assets/background2.jpg'); */
 }
-.accSoft h3{
+
+.accSoft h3 {
     height: fit-content;
     font-size: 30px;
     width: fit-content;
     color: white;
 }
-.accsoftinner{
+
+.accsoftinner {
     margin-top: 50px;
     display: flex;
     justify-content: center;
-    align-items:center;
+    align-items: center;
     flex-wrap: wrap;
     width: 1280px;
     padding: 15px;
@@ -327,9 +345,10 @@
     border-radius: 30px;
     background: transparent;
     box-shadow: 5px 5px 10px darkcyan,
-                -5px -5px 10px darkcyan;
+        -5px -5px 10px darkcyan;
 }
-.accsoftinner2{
+
+.accsoftinner2 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -341,46 +360,53 @@
     /* mix-blflex-end-mode: color-burn; */
     /* background-color: black; */
 }
-.accsoftinner2 img{
+
+.accsoftinner2 img {
     height: 110px;
 }
 
-.security{
+.security {
     display: flex;
-    height:450px;
+    height: 450px;
     margin-top: 150px;
     /* margin-bottom: 200px; */
     border-top: 5px solid darkcyan;
     border-bottom: 5px solid darkcyan;
 }
-.security div{
+
+.security div {
     width: 100%;
     /* background-color: aqua; */
 }
-.security div h4{
+
+.security div h4 {
     color: white;
     margin-top: -30px;
     width: fit-content;
     font-size: 30px;
     font-weight: inherit;
 }
-.securityinner{
+
+.securityinner {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 8px;
 }
+
 .securityinner p {
     margin-bottom: 20px;
     text-align: flex-start;
     color: rgb(161, 161, 161);
 }
-.security img{
+
+.security img {
     height: 450px;
     width: 800px;
 }
-.learnbtn{
+
+.learnbtn {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -404,34 +430,36 @@
     cursor: pointer;
     outline: none;
 }
-.learnbtn:hover{
+
+.learnbtn:hover {
     background-color: #23c483;
-  box-shadow: 0px 2px 5px rgba(46, 229, 157, 0.4);
-  color: #fff;
-  transform: translateY(-7px);
+    box-shadow: 0px 2px 5px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
 }
-.learnbtn:active{
+
+.learnbtn:active {
     transform: translateY(-1px);
 }
 
 
 @media only screen and (max-width:480px) {
-    .mainpage{
+    .mainpage {
         display: flex;
         flex-direction: column;
-        justify-content:flex;
+        justify-content: flex;
         align-items: flex-start;
         width: 300px;
         height: fit-content;
-        margin-top:550px ;
+        margin-top: 550px;
         margin-left: -20px;
         /* background-color: #23c483; */
     }
 
-    .caro{
+    .caro {
         display: flex;
         justify-content: center;
-        width:100%;
+        width: 100%;
         height: 100vh;
         margin-top: -80px;
         align-items: center;
@@ -441,18 +469,19 @@
         background-position: -290px;
     }
 
-    .mainhead{
-        display:flex;
-        width:100%;
-        height:50px;
-        align-items:center;
-        margin-left:-10px;
+    .mainhead {
+        display: flex;
+        width: 100%;
+        height: 50px;
+        align-items: center;
+        margin-left: -10px;
         font-size: 20px;
         color: whitesmoke;
-        font-weight:600;
+        font-weight: 600;
         /* background-color: #212121; */
     }
-    .firstinput{
+
+    .firstinput {
         display: flex;
         align-items: center;
         margin-top: 50px;
@@ -462,15 +491,17 @@
         color: black;
         /* background-color: red; */
     }
+
     .inputbox {
         height: 30px;
         padding: 2px;
         overflow: hidden;
         position: relative;
-        width: 240px;   
+        width: 240px;
         /* background-color: #212121; */
-      }
-      .inputbox input {
+    }
+
+    .inputbox input {
         overflow: hidden;
         font-size: 25px;
         font-weight: 400;
@@ -487,7 +518,7 @@
         transition: 0.5s;
         z-index: 10;
     }
-      
+
     .inputbox span {
         overflow: hidden;
         position: absolute;
@@ -501,15 +532,15 @@
         pointer-events: none;
         color: white;
     }
-      
-      .inputbox input:valid ~span,
-      .inputbox input:focus ~span {
+
+    .inputbox input:valid~span,
+    .inputbox input:focus~span {
         color: white;
         transform: translateX(-10px) translateY(-34px);
-        font-size: 0,10px;
-      }
-      
-      .inputbox i {
+        font-size: 0, 10px;
+    }
+
+    .inputbox i {
         overflow: hidden;
         position: absolute;
         left: 0;
@@ -521,29 +552,29 @@
         transition: 0.5s;
         pointer-events: none;
         z-index: 9;
-      }
-      
-      .inputbox input:valid ~i,
-      .inputbox input:focus ~i {
+    }
+
+    .inputbox input:valid~i,
+    .inputbox input:focus~i {
         overflow: hidden;
         height: 30px;
-      }
+    }
 
 
-      .service{
+    .service {
         display: flex;
         width: 100%;
         height: fit-content;
         flex-wrap: wrap;
         flex-direction: row;
-        justify-content:flex-start;
+        justify-content: flex-start;
         align-items: flex-start;
         margin: auto;
         margin-top: 80px;
         /* background-color: #23c483; */
-    } 
-    
-    .service h2{
+    }
+
+    .service h2 {
         font-size: 40px;
         width: fit-content;
         color: white;
@@ -551,23 +582,24 @@
         /* background-color: aqua; */
         border-bottom: 2px dashed white;
     }
-    
-    .servbox{
+
+    .servbox {
         display: flex;
         width: 5000px;
         height: 340px;
-        flex-direction:column;
+        flex-direction: column;
         padding: 20px;
         margin-top: 60px;
         overflow: scroll;
         /* background-color: lightgoldenrodyellow; */
     }
-    
-    .svimg{
+
+    .svimg {
         overflow: hidden;
         height: 200px;
         width: 100%;
     }
+
     .card {
         margin: auto;
         overflow: hidden;
@@ -591,30 +623,33 @@
         color: black;
         margin-bottom: 25px;
     }
-    .card h4{
+
+    .card h4 {
         font-size: 15px;
         color: white;
         /* background-color: lightseagreen; */
     }
-    .card p{
+
+    .card p {
         color: whitesmoke;
         margin-top: -10px;
         padding: 10px;
         height: 90px;
-        text-align:flex-start;
+        text-align: flex-start;
         font-size: 12px;
     }
+
     .card:hover {
-        color:white;
+        color: white;
         border: 1px solid white;
         transform: scale(1.05);
     }
-      
+
     .card:active {
         transform: scale(0.95) rotateZ(1.7deg);
     }
 
-    .accSoft{
+    .accSoft {
         margin-top: 80px;
         display: flex;
         flex-direction: column;
@@ -623,17 +658,19 @@
         align-items: center;
         height: fit-content;
     }
-    .accSoft h3{
+
+    .accSoft h3 {
         height: fit-content;
         font-size: 32px;
         width: fit-content;
         color: white;
     }
-    .accsoftinner{
+
+    .accsoftinner {
         margin-top: 50px;
         display: flex;
         justify-content: center;
-        align-items:center;
+        align-items: center;
         flex-wrap: wrap;
         width: 390px;
         padding: 15px;
@@ -643,9 +680,10 @@
         border-radius: 30px;
         background: white;
         box-shadow: 5px 5px 10px darkcyan,
-                    -5px -5px 10px darkcyan;
+            -5px -5px 10px darkcyan;
     }
-    .accsoftinner2{
+
+    .accsoftinner2 {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -655,12 +693,13 @@
         aspect-ratio: 16/2;
         object-fit: contain;
     }
-    .accsoftinner2 img{
+
+    .accsoftinner2 img {
         height: 60px;
     }
 
 
-    .accServ{
+    .accServ {
         position: inherit;
         display: flex;
         flex-direction: column;
@@ -673,8 +712,8 @@
         border-top: 2px solid darkcyan;
         border-bottom: 2px solid darkcyan;
     }
-    
-    .accServ h2{
+
+    .accServ h2 {
         width: fit-content;
         color: white;
         margin-top: 50px;
@@ -682,7 +721,8 @@
         font-size: 20px;
         border-bottom: 1px dashed white;
     }
-    .accserv2{
+
+    .accserv2 {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -693,7 +733,8 @@
         margin-bottom: 50px;
         /* gap: 2px; */
     }
-    .accServbox{
+
+    .accServbox {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -701,10 +742,12 @@
         width: 200px;
         /* border: 1px solid darkcyan; */
     }
-    .accServboxfake{
+
+    .accServboxfake {
         display: none;
     }
-    .accServboxImg{
+
+    .accServboxImg {
         width: 40px;
         height: 40px;
         border-radius: 10%;
@@ -714,33 +757,36 @@
         object-fit: contain;
         /* background-color: #23c483; */
     }
-    .accServboxHead{
+
+    .accServboxHead {
         display: flex;
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
         color: darkgray;
-        width:80px;
+        width: 80px;
         overflow: hidden;
         height: 100%;
-        font-size:14px;
+        font-size: 14px;
         cursor: pointer;
-        margin-left:15px;
+        margin-left: 15px;
         /* background-color: red; */
     }
-    .accServboxHead:hover{
+
+    .accServboxHead:hover {
         color: white;
         font-weight: bold;
     }
-    .accservboximg2{
+
+    .accservboximg2 {
         height: 10px;
     }
 
-    .security{
+    .security {
         display: none;
         /* display: flex; */
         flex-direction: column;
-        height:750px;
+        height: 750px;
         width: 100%;
         margin-top: 150px;
         /* margin-bottom: 200px; */
@@ -750,18 +796,21 @@
         border-top: 2px solid darkcyan;
         border-bottom: 2px solid darkcyan;
     }
-    .security div{
+
+    .security div {
         width: 100%;
         /* background-color: aqua; */
     }
-    .security div h4{
+
+    .security div h4 {
         color: white;
         margin-top: 400px;
         width: fit-content;
         font-size: 30px;
         margin-bottom: 0px;
     }
-    .securityinner{
+
+    .securityinner {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -770,6 +819,7 @@
         width: 400px;
         /* background-color: #23c483; */
     }
+
     .securityinner p {
         width: 500px;
         margin-bottom: 20px;
@@ -777,12 +827,14 @@
         /* background-color: #23c483; */
         color: whitesmoke;
     }
-    .security img{
+
+    .security img {
         display: none;
         height: 450px;
         width: 800px;
     }
-    .learnbtn{
+
+    .learnbtn {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -806,13 +858,15 @@
         cursor: pointer;
         outline: none;
     }
-    .learnbtn:hover{
+
+    .learnbtn:hover {
         background-color: #23c483;
-      box-shadow: 0px 2px 5px rgba(46, 229, 157, 0.4);
-      color: #fff;
-      transform: translateY(-7px);
+        box-shadow: 0px 2px 5px rgba(46, 229, 157, 0.4);
+        color: #fff;
+        transform: translateY(-7px);
     }
-    .learnbtn:active{
+
+    .learnbtn:active {
         transform: translateY(-1px);
     }
 
@@ -821,7 +875,7 @@
 
 @media screen and (min-width: 1201px) {
 
-    .mainpage{
+    .mainpage {
         padding: 20px;
         width: 1100px;
         height: 500px;
@@ -830,7 +884,7 @@
         /* background-color: #23c483; */
     }
 
-    .mainhead{
+    .mainhead {
         display: flex;
         align-items: flex-end;
         margin-left: 50px;
@@ -841,20 +895,20 @@
         color: white;
     }
 
-    .caro{
+    .caro {
         display: flex;
         justify-content: center;
         align-items: center;
         background-image: url('../Assets/meeting4.jpg');
         height: 100vh;
-        width:inherit;
+        width: inherit;
         margin: auto;
         border: 0px solid gray;
         background-repeat: no-repeat;
         background-size: cover;
     }
 
-    .firstinput{
+    .firstinput {
         display: flex;
         align-items: center;
         margin-left: 50px;
@@ -872,9 +926,9 @@
         overflow: hidden;
         position: relative;
         width: 260px;
-      }
+    }
 
-      .inputbox input {
+    .inputbox input {
         font-size: 15px;
         font-weight: 600;
         position: relative;
@@ -906,11 +960,11 @@
         color: white;
     }
 
-    .inputbox input:valid ~span,
-    .inputbox input:focus ~span {
-      color: white;
-      transform: translateX(-10px) translateY(-34px);
-      font-size: 0,75em;
+    .inputbox input:valid~span,
+    .inputbox input:focus~span {
+        color: white;
+        transform: translateX(-10px) translateY(-34px);
+        font-size: 0, 75em;
     }
 
     .inputbox i {
@@ -925,15 +979,15 @@
         transition: 0.5s;
         pointer-events: none;
         z-index: 9;
-      }
+    }
 
-      .inputbox input:valid ~i,
-      .inputbox input:focus ~i {
+    .inputbox input:valid~i,
+    .inputbox input:focus~i {
         overflow: hidden;
         height: 44px;
-      }
+    }
 
-      .mainbtn {
+    .mainbtn {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -952,10 +1006,10 @@
         font-size: 11px;
         transition: all 0.3s ease 0s;
         overflow: hidden;
-       }
+    }
 
 
-       .mainbtn:hover {
+    .mainbtn:hover {
         background-color: #212121;
         transform: translateY(-10px);
         color: #e8e8e8;
@@ -963,18 +1017,18 @@
 
     .mainbtn:active {
         transform: translateY(2px);
-      }
+    }
 
 
-      .service{
+    .service {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
         margin-top: 80px;
-    } 
+    }
 
-    .service h2{
+    .service h2 {
         font-size: 35px;
         width: fit-content;
         margin: auto;
@@ -983,18 +1037,287 @@
         border-bottom: 2px dashed white;
     }
 
-    .servbox{
+    .servbox {
         display: flex;
         flex-wrap: wrap;
         place-content: flex-start;
         align-content: flex-start;
         padding: 20px;
-        gap: 20px; 
+        gap: 20px;
         margin-top: 80px;
-        width: 1100px;
+        width: fit-content;
         height: fit-content;
+        /* background-color: #212121; */
     }
-    
-    
 
-  }
+    .svimg {
+        overflow: hidden;
+        height: 200px;
+        width: 100%;
+    }
+
+    .card {
+        /* margin: auto; */
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 60px;
+        margin-left: 50px;
+        box-sizing: border-box;
+        width: 300px;
+        height: 400px;
+        background: rgba(217, 217, 217, 0.58);
+        border: 1px solid white;
+        box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+        border-radius: 17px;
+        text-align: center;
+        cursor: pointer;
+        transition: all 0.5s;
+        align-items: center;
+        justify-content: center;
+        user-select: none;
+        font-weight: bolder;
+        color: black;
+    }
+
+    .card img {
+        background-color: lightcoral;
+    }
+
+    .card h4 {
+        font-size: 22px;
+        color: whitesmoke;
+    }
+
+    .card p {
+        margin-top: -10px;
+        padding: 10px;
+        height: 90px;
+        text-align: flex-start;
+        font-size: 14px;
+    }
+
+    .card:hover {
+        color: white;
+        border: 1px solid white;
+        transform: scale(1.05);
+    }
+
+    .card:active {
+        transform: scale(0.95) rotateZ(1.7deg);
+    }
+
+    .accSoft {
+        margin-top: 80px;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        justify-content: center;
+        align-items: center;
+        height: fit-content;
+        margin-top: 200px;
+        margin-bottom: 250px;
+    }
+
+    .accSoft h3 {
+        height: fit-content;
+        font-size: 35px;
+        width: fit-content;
+        color: white;
+    }
+
+    .accsoftinner {
+        margin-top: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 1400px;
+        padding: 15px;
+        margin-bottom: 90px;
+        height: fit-content;
+        border-radius: 50px;
+        border-radius: 30px;
+        background: transparent;
+        box-shadow: 5px 5px 10px darkcyan,
+            -5px -5px 10px darkcyan;
+    }
+
+    .accsoftinner2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 5px;
+        width: fit-content;
+        height: fit-content;
+        aspect-ratio: 16/2;
+        object-fit: contain;
+        /* background-color: black; */
+    }
+
+    .accsoftinner2 img {
+        height: 120px;
+    }
+
+    .accServ {
+        position: inherit;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* background-image: url('../Assets/background2.jpg'); */
+        margin-top: 200px;
+        height: fit-content;
+        /* margin-bottom: 150px; */
+        border-top: 5px solid darkcyan;
+        border-bottom: 5px solid darkcyan;
+        overflow: hidden;
+    }
+
+    .accServ h2 {
+        width: fit-content;
+        color: white;
+        margin-top: 50px;
+        font-weight: 600;
+        font-size: 35px;
+        border-bottom: 1px dashed white;
+    }
+
+    .accserv2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 30px;
+        /* background-color:aqua; */
+        width: 100%;
+        display: flex;
+        margin-left: 180px;
+        margin-bottom: 100px;
+    }
+
+    .accServbox {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        height: 150px;
+        width: 400px;
+        margin: 5px;
+        /* border: 1px solid darkcyan; */
+    }
+
+    .accServboxfake {
+        display: none;
+    }
+
+    .accServboxImg {
+        width: 60px;
+        height: 60px;
+        border-radius: 10%;
+        padding: 15px;
+        border: 2px solid darkcyan;
+        aspect-ratio: 3/2;
+        object-fit: contain;
+    }
+
+    .accServboxHead {
+        color: darkgray;
+        width: fit-content;
+        font-size: 20px;
+        cursor: pointer;
+        /* background-color: red; */
+        margin: 40px;
+    }
+
+    .accServboxHead:hover {
+    color: white;
+    font-weight: bold;
+    /* font-size: x-large; */
+}
+
+.accservboximg2 {
+    height: 10px;
+}
+
+.security {
+    display: flex;
+    height: 450px;
+    margin-top: 150px;
+    /* margin-bottom: 200px; */
+    border-top: 5px solid darkcyan;
+    border-bottom: 5px solid darkcyan;
+    overflow: hidden;
+}
+
+.security div {
+    width: 100%;
+    /* background-color: aqua; */
+}
+
+.security div h4 {
+    color: white;
+    margin-top: -30px;
+    width: fit-content;
+    font-size: 35px;
+    font-weight: inherit;
+}
+
+.securityinner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+}
+
+.securityinner p {
+    width: 1000px;
+    /* background-color: #23c483; */
+    margin-bottom: 20px;
+    text-align: start;
+    color: rgb(161, 161, 161);
+}
+
+.security img {
+    height: 450px;
+}
+
+.learnbtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 100px;
+    height: 20px;
+    margin-top: 15px;
+    cursor: pointer;
+    font-weight: 80%;
+    padding: 1.3em 3em;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: wheat;
+    background-color: darkcyan;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+.learnbtn:hover {
+    background-color: #23c483;
+    box-shadow: 0px 2px 5px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+}
+
+.learnbtn:active {
+    transform: translateY(-1px);
+}
+
+
+
+}

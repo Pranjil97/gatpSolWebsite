@@ -182,3 +182,91 @@
     }
        
 }
+
+@media screen and (min-width: 1201px) {
+
+    .workpro{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 250px;
+        height: 1000px;
+        margin-bottom: 200px;
+    }
+
+    .workpro h3{
+          width: fit-content;
+          margin-top: 80px;
+          color: white;
+          margin-bottom: 100px;
+          border-bottom: 2px dashed white;
+          font-size: 35px;
+      }
+
+      .workprobox{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 1400px;
+        gap: 70px;
+        /* background-color: rgb(32, 102, 98); */
+    }
+
+    .workprobox1{
+        border-radius: 2px;
+        width: 340px;
+        height: 320px;
+        border-radius: 5px;
+        border: 2px solid darkcyan;
+        border-radius: 30px;
+        background: #105d6b;
+        box-shadow: inset 0px 0px 15px 10px rgba(1, 20, 20, 0.5);
+        transition: all 0.7s;
+    }
+
+    .workprobox1:hover{
+        box-shadow: 2px 2px 15px 15px rgb(0, 27, 27);
+        transform: scale(1.05);
+      /* box-shadow: 10px 10px 20px rgb(197, 194, 194),-10px -10px 20px rgb(197, 194, 194); */
+    }
+
+    .workprobox1inner1:active {
+        transform: scale(0.95) rotateZ(1.7deg);
+    }
+
+    .workprobox1inner1{
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        padding: 5px;
+        width: 250px;
+        height: 90px;
+        /* background-color: lightcoral; */
+    }
+    .workprobox1inner1 div{
+        color: white;
+        margin-left: 20px;
+        font-size: 30px;
+        /* text-transform: uppercase; */
+    }
+    .workprobox1 h4{
+        width: fit-content;
+        text-align: start;
+        margin: 5px;
+        margin-left: 20px;
+        font-size: 18px;
+        color: white;
+        /* width: fit-content; */
+        /* background-color: lightslategray; */
+    }
+    .workprobox1inner2{
+        color: white;
+        text-align: left;
+        padding: 20px;
+        /* background-color: lightsalmon; */
+    }
+
+    
+
+  }

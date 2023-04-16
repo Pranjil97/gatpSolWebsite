@@ -84,3 +84,102 @@
     /* background-image: url('../Assets/background2.jpg'); */
     /* background-color: lightseagreen; */
 }
+
+
+@media screen and (min-width: 1201px) {
+
+    .securitypage{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: fit-content;
+    }
+
+    .securitypageinner{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+        width: 100%;
+        height: fit-content;
+        margin-bottom: 200px;
+        /* background-color: white; */
+    }
+
+    .securitypageinner h4{
+        color:white;
+        font-weight: 500;
+        font-size: 35px;
+        width: fit-content;
+        border-bottom: 2px dashed pink;
+    }
+
+    .securitypageinner2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 1400px;
+        flex-wrap: wrap;
+        /* background-color: lightgreen; */
+    }
+
+    .securitypagebox{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 350px;
+        gap: 20px;
+        margin: 50px;
+        /* background-color: lightcoral; */
+        /* border: 2px solid darkcyan; */
+        background-color:#105d6b;
+        box-shadow: inset 0px 0px 15px 10px rgba(1, 20, 20, 0.5);
+        transition: all 0.7s;
+        /* background-color: rgb(1, 32, 15); */
+    }
+
+    .securitypagebox:hover {
+        border-bottom-right-radius: 50px;
+        border-top-left-radius: 50px;
+        transform: scale(1.05);
+        box-shadow: 2px 2px 15px 15px rgb(0, 27, 27);
+        transition: border-radius cubic-bezier(0.075, 0.82, 0.165, 1) 1s,
+                     transform cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+       }
+
+       .securitypagebox1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 270px;
+        height: 80px;
+        margin-top: 15px;
+        font-size: 25px;
+        font-weight: 500;
+        color: white;
+        text-transform: uppercase;
+        border-bottom: 2px solid pink;
+        /* background-color: blanchedalmond; */
+    }
+    
+    .securitypagebox2{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 25px;
+        place-content: flex-start;
+        width: 300px;
+        height: 260px;
+        color: white;
+        font-size: 15px;
+        text-align: center;
+        /* background-color: blanchedalmond; */
+    }
+    
+       
+
+
+  }
+  
