@@ -203,7 +203,7 @@
       align-items: center;
       position: absolute;
       top: 40%;
-      width: 100%;
+      width: 100vh;
       height: 100%;
       padding: 40px;
       margin: 20px auto;
