@@ -17,7 +17,7 @@ const Login = () => {
                     <p>Login</p>
                     <form>
                         <div className="user-box">
-                            <input required="" name="" type="text" />
+                            <input required="" name="" type="text"/>
                             <label>Email</label>
                         </div>
                         <div className="user-box">

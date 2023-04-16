@@ -28,17 +28,13 @@
     background-size: cover;
 }
 .firstinput{
-    /* background-color: red; */
     display: flex;
-    /* justify-content: center; */
     align-items: center;
     margin-left: 20px;
     margin-top: 25px;
     height: 80px;
     width: 380px;
     color: black;
-    /* background-color: red; */
-    /* border: 1px solid black; */
 }
 .inputbox {
     height: 40px;
@@ -47,8 +43,8 @@
     position: relative;
     width: 240px;
   }
+
   .inputbox input {
-  
     overflow: hidden;
     font-size: 15px;
     font-weight: 600;
@@ -132,27 +128,14 @@
     overflow: hidden;
    }
    
-.mainbtn::before {
-    content: "";
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 0;
-    border-radius: 15px;
-    background-color: #212121;
-    z-index: -1;
-    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
-    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
-    transition: all 250ms
-}
+
    
 .mainbtn:hover {
+    background-color: #212121;
     color: #e8e8e8;
 }
    
-.mainbtn:hover::before {
-    width: 100%;
-}
+
 
 .service{
     display: flex;
@@ -834,3 +817,184 @@
     }
 
 }
+
+
+@media screen and (min-width: 1201px) {
+
+    .mainpage{
+        padding: 20px;
+        width: 1100px;
+        height: 500px;
+        margin-top: 100px;
+        margin-left: 160px;
+        /* background-color: #23c483; */
+    }
+
+    .mainhead{
+        display: flex;
+        align-items: flex-end;
+        margin-left: 50px;
+        height: 200px;
+        color: black;
+        width: fit-content;
+        font-size: 30px;
+        color: white;
+    }
+
+    .caro{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url('../Assets/meeting4.jpg');
+        height: 100vh;
+        width:inherit;
+        margin: auto;
+        border: 0px solid gray;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .firstinput{
+        display: flex;
+        align-items: center;
+        margin-left: 50px;
+        margin-top: 25px;
+        height: 80px;
+        width: 380px;
+        color: black;
+    }
+
+    .inputbox {
+        display: flex;
+        flex-wrap: wrap;
+        height: 40px;
+        padding: 2px;
+        overflow: hidden;
+        position: relative;
+        width: 260px;
+      }
+
+      .inputbox input {
+        font-size: 15px;
+        font-weight: 600;
+        position: relative;
+        width: 100%;
+        padding: 20px;
+        padding: 10px 10px 10px 10px;
+        background: transparent;
+        outline: none;
+        box-shadow: none;
+        border: none;
+        color: darkslategray;
+        font-size: 1em;
+        letter-spacing: 0.05em;
+        transition: 0.5s;
+        z-index: 10;
+    }
+
+    .inputbox span {
+        overflow: hidden;
+        position: absolute;
+        left: 10px;
+        margin-left: 90px;
+        padding: 20px 10px 10px;
+        font-size: 1em;
+        color: #8f8f8f;
+        letter-spacing: 00.05em;
+        transition: 0.5s;
+        pointer-events: none;
+        color: white;
+    }
+
+    .inputbox input:valid ~span,
+    .inputbox input:focus ~span {
+      color: white;
+      transform: translateX(-10px) translateY(-34px);
+      font-size: 0,75em;
+    }
+
+    .inputbox i {
+        overflow: hidden;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 2px;
+        background: white;
+        border-radius: 4px;
+        transition: 0.5s;
+        pointer-events: none;
+        z-index: 9;
+      }
+
+      .inputbox input:valid ~i,
+      .inputbox input:focus ~i {
+        overflow: hidden;
+        height: 44px;
+      }
+
+      .mainbtn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        margin-top: -9px;
+        width: 120px;
+        height: 40px;
+        margin-left: 5px;
+        padding: 15px 25px;
+        border: unset;
+        border-radius: 15px;
+        color: #212121;
+        z-index: 1;
+        background: #e8e8e8;
+        font-weight: 1000;
+        font-size: 11px;
+        transition: all 0.3s ease 0s;
+        overflow: hidden;
+       }
+
+
+       .mainbtn:hover {
+        background-color: #212121;
+        transform: translateY(-10px);
+        color: #e8e8e8;
+    }
+
+    .mainbtn:active {
+        transform: translateY(2px);
+      }
+
+
+      .service{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        margin-top: 80px;
+    } 
+
+    .service h2{
+        font-size: 35px;
+        width: fit-content;
+        margin: auto;
+        color: white;
+        padding: 4px;
+        border-bottom: 2px dashed white;
+    }
+
+    .servbox{
+        display: flex;
+        flex-wrap: wrap;
+        place-content: flex-start;
+        align-content: flex-start;
+        padding: 20px;
+        gap: 20px; 
+        margin-top: 80px;
+        width: 1100px;
+        height: fit-content;
+    }
+    
+    
+
+  }
