@@ -28,7 +28,7 @@ const Navbar = (props) => {
                 <div className='logo'>
                     <img className='imaginside' src={logo} alt="img"></img>
                 </div>
-                <ul>
+                <ul className='navopt'>
                     <li><Link to='/' style={{ textDecoration: 'none', color: 'darkcyan' }}>Home</Link></li>
                     <li><Link to='/about' style={{ textDecoration: 'none', color: 'darkcyan' }}>About</Link></li>
                     <li><Link to='/service' style={{ textDecoration: 'none', color: 'darkcyan' }}>Security</Link></li>
@@ -40,7 +40,7 @@ const Navbar = (props) => {
                 <li onClick={() => { setPage(2) }}>Security</li>
                 <li onClick={() => { setPage(3) }}>Contact US</li> */}
                 </ul>
-                {/* <BtnNav /> */}
+                <BtnNav />
                 <div className='logbtn'><Link to='/login' style={{ textDecoration: 'none', color: 'white' }}>Login</Link></div>
                 {/* <div onClick={() => { setPage(4) }} className='logbtn'>Login</div> */}
             </nav>

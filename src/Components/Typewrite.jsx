@@ -7,10 +7,10 @@ const Typewrite = () => {
             <Typewriter
                 onInit={(typewriter) => {
                     typewriter
-                        .typeString("Welcome To GATP Solutions, Smart Accounting For Smart People")
+                        .typeString("Welcome To Innovational Accounting, Smart Accounting For Smart People")
                         .pauseFor(100)
                         .deleteAll()
-                        .typeString("Welcome To GATP Solutions, Smart Accounting For Smart People")
+                        .typeString("Welcome To Innovational Accounting, Smart Accounting For Smart People")
                         .start();
 
                     // .typeString("Welcome To GATP Solutions")

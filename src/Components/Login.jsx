@@ -32,7 +32,7 @@ const Login = () => {
                             Submit
                         </a>
                     </form>
-                    <p>Don't have an account? <a href="" className="a2">Sign up!</a></p>
+                    <p>Don't have an account? <a href="." className="a2">Sign up!</a></p>
                 </div>
             </div>
         </div>
