@@ -630,6 +630,7 @@
     font-size: 1.5rem;
     font-weight: bold;
     letter-spacing: 1px;
+    margin-bottom: 60px;
   }
 
   .login-box .user-box {
@@ -643,10 +644,9 @@
     color: #fff;
     margin-bottom: 50px;
     border: none;
-    border: 1px solid #fff;
+    border-bottom: 2px solid whitesmoke;
     outline: none;
     background: transparent;
-    border-radius: 10px;
   }
 
   .login-box .user-box label {
