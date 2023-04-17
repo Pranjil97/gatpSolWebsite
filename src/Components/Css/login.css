@@ -245,6 +245,7 @@
     color: #fff;
     margin-top: 25px;
     margin-bottom: 30px;
+    height: 20px;
     border: none;
     border-bottom: 1px solid #fff;
     outline: none;
@@ -437,6 +438,7 @@
 
   .login-box .user-box input {
     width: 100%;
+    height: 20px;
     padding: 10px 10px 10px 10px;
     font-size: 14px;
     color: #fff;
