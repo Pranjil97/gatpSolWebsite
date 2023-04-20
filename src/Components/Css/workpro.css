@@ -98,36 +98,39 @@
     .workpro{
         display: flex;
         flex-direction: column;
+        justify-content: center;
         align-items: center;
-        margin-top: 120px;
+        margin-top: 150px;
         height: fit-content;
+        width: 100%;
+        margin-bottom: 200px;
+        /* background-color: antiquewhite; */
     }
+
     .workpro h3{
-      width: fit-content;
-        margin-top: 10px;
-        color: white;
-        margin-bottom: 40px;
-        border-bottom: 2px dashed white;
-        font-size: 35px;
-    }
+          width: fit-content;
+          margin-top: 80px;
+          color: white;
+          margin-bottom: 100px;
+          border-bottom: 2px dashed white;
+          font-size: 30px;
+      }
+
     .workprobox{
         display: flex;
-        flex-direction: column;
         justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-        width: 400px;
-        gap: 50px;
-        /* background-color: lightcoral; */
+        align-items: flex-start;
+        width: 80%;
+        /* gap: 50px; */
+        /* background-color: rgb(32, 102, 98); */
     }
+
     .workprobox1{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        margin-bottom: -50px;
         border-radius: 2px;
-        width: 350px;
-        height: 250px;
+        width: 70%;
+        height: fit-content;
+        margin: auto;
         border-radius: 5px;
         border: 2px solid darkcyan;
         border-radius: 30px;
@@ -135,53 +138,323 @@
         box-shadow: inset 0px 0px 15px 10px rgba(1, 20, 20, 0.5);
         transition: all 0.7s;
     }
+
     .workprobox1:hover{
         box-shadow: 2px 2px 15px 15px rgb(0, 27, 27);
         transform: scale(1.05);
       /* box-shadow: 10px 10px 20px rgb(197, 194, 194),-10px -10px 20px rgb(197, 194, 194); */
     }
+
     .workprobox1inner1:active {
         transform: scale(0.95) rotateZ(1.7deg);
     }
+
     .workprobox1inner1{
         display: flex;
         justify-items: center;
         align-items: center;
-        width: fit-content;
-        height: fit-content;
-        margin-left: -20px;
-        margin-top: 20px;
+        padding: 5px;
+        width: 250px;
+        height: 90px;
         /* background-color: lightcoral; */
     }
     .workprobox1inner1 div{
         color: white;
-        margin-left: 0px;
+        margin-left: 20px;
         font-size: 25px;
-        /* background-color: blueviolet; */
+        /* text-transform: uppercase; */
     }
     .workprobox1 h4{
         width: fit-content;
         text-align: start;
-        margin: 5px;
-        margin-left: -10px;
+        /* margin: 5px; */
+        margin-left: 20px;
         font-size: 15px;
-        margin-top: 15px;
         color: white;
         /* width: fit-content; */
         /* background-color: lightslategray; */
     }
     .workprobox1inner2{
-        display: flex;
-        justify-content: center;
-        align-items: center;
         color: white;
         text-align: left;
-        font-size: 13px;
-        margin-top: -10px;
+        padding: 20px;
+        font-size: 14px;
         /* background-color: lightsalmon; */
     }
        
 }
+@media screen and (min-width: 481px) and (max-width: 768px){
+
+    .workpro{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 150px;
+        height: fit-content;
+        width: 100%;
+        margin-bottom: 200px;
+        /* background-color: antiquewhite; */
+    }
+
+    .workpro h3{
+          width: fit-content;
+          margin-top: 80px;
+          color: white;
+          margin-bottom: 100px;
+          border-bottom: 2px dashed white;
+          font-size: 30px;
+      }
+
+    .workprobox{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        width: 80%;
+        /* gap: 50px; */
+        /* background-color: rgb(32, 102, 98); */
+    }
+
+    .workprobox1{
+        margin-bottom: -50px;
+        border-radius: 2px;
+        width: 70%;
+        height: fit-content;
+        margin: auto;
+        border-radius: 5px;
+        border: 2px solid darkcyan;
+        border-radius: 30px;
+        background: #105d6b;
+        box-shadow: inset 0px 0px 15px 10px rgba(1, 20, 20, 0.5);
+        transition: all 0.7s;
+    }
+
+    .workprobox1:hover{
+        box-shadow: 2px 2px 15px 15px rgb(0, 27, 27);
+        transform: scale(1.05);
+      /* box-shadow: 10px 10px 20px rgb(197, 194, 194),-10px -10px 20px rgb(197, 194, 194); */
+    }
+
+    .workprobox1inner1:active {
+        transform: scale(0.95) rotateZ(1.7deg);
+    }
+
+    .workprobox1inner1{
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        padding: 5px;
+        width: 250px;
+        height: 90px;
+        /* background-color: lightcoral; */
+    }
+    .workprobox1inner1 div{
+        color: white;
+        margin-left: 20px;
+        font-size: 25px;
+        /* text-transform: uppercase; */
+    }
+    .workprobox1 h4{
+        width: fit-content;
+        text-align: start;
+        /* margin: 5px; */
+        margin-left: 20px;
+        font-size: 16px;
+        color: white;
+        /* width: fit-content; */
+        /* background-color: lightslategray; */
+    }
+    .workprobox1inner2{
+        color: white;
+        text-align: left;
+        padding: 20px;
+        font-size: 15px;
+        /* background-color: lightsalmon; */
+    }
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px){
+
+    .workpro{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 150px;
+        height: fit-content;
+        width: 100%;
+        margin-bottom: 200px;
+        /* background-color: antiquewhite; */
+    }
+
+    .workpro h3{
+          width: fit-content;
+          margin-top: 80px;
+          color: white;
+          margin-bottom: 100px;
+          border-bottom: 2px dashed white;
+          font-size: 35px;
+      }
+
+    .workprobox{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        /* gap: 50px; */
+        /* background-color: rgb(32, 102, 98); */
+    }
+
+    .workprobox1{
+        margin-bottom: -50px;
+        border-radius: 2px;
+        /* width: 50%; */
+        height: 290px;
+        margin: auto;
+        border-radius: 5px;
+        border: 2px solid darkcyan;
+        border-radius: 30px;
+        background: #105d6b;
+        box-shadow: inset 0px 0px 15px 10px rgba(1, 20, 20, 0.5);
+        transition: all 0.7s;
+    }
+
+    .workprobox1:hover{
+        box-shadow: 2px 2px 15px 15px rgb(0, 27, 27);
+        transform: scale(1.05);
+      /* box-shadow: 10px 10px 20px rgb(197, 194, 194),-10px -10px 20px rgb(197, 194, 194); */
+    }
+
+    .workprobox1inner1:active {
+        transform: scale(0.95) rotateZ(1.7deg);
+    }
+
+    .workprobox1inner1{
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        padding: 5px;
+        width: 250px;
+        height: 90px;
+        /* background-color: lightcoral; */
+    }
+    .workprobox1inner1 div{
+        color: white;
+        margin-left: 20px;
+        font-size: 25px;
+        /* text-transform: uppercase; */
+    }
+    .workprobox1 h4{
+        width: fit-content;
+        text-align: start;
+        /* margin: 5px; */
+        margin-left: 20px;
+        font-size: 16px;
+        color: white;
+        /* width: fit-content; */
+        /* background-color: lightslategray; */
+    }
+    .workprobox1inner2{
+        color: white;
+        text-align: left;
+        padding: 20px;
+        font-size: 15px;
+        /* background-color: lightsalmon; */
+    }
+
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1200px){
+
+    .workpro{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 150px;
+        height: fit-content;
+        width: 100%;
+        margin-bottom: 200px;
+        /* background-color: antiquewhite; */
+    }
+
+    .workpro h3{
+          width: fit-content;
+          margin-top: 80px;
+          color: white;
+          margin-bottom: 100px;
+          border-bottom: 2px dashed white;
+          font-size: 35px;
+      }
+
+    .workprobox{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        width: 80%;
+        /* gap: 50px; */
+        /* background-color: rgb(32, 102, 98); */
+    }
+
+    .workprobox1{
+        margin-bottom: -50px;
+        border-radius: 2px;
+        /* width: 50%; */
+        height: 290px;
+        margin: auto;
+        border-radius: 5px;
+        border: 2px solid darkcyan;
+        border-radius: 30px;
+        background: #105d6b;
+        box-shadow: inset 0px 0px 15px 10px rgba(1, 20, 20, 0.5);
+        transition: all 0.7s;
+    }
+
+    .workprobox1:hover{
+        box-shadow: 2px 2px 15px 15px rgb(0, 27, 27);
+        transform: scale(1.05);
+      /* box-shadow: 10px 10px 20px rgb(197, 194, 194),-10px -10px 20px rgb(197, 194, 194); */
+    }
+
+    .workprobox1inner1:active {
+        transform: scale(0.95) rotateZ(1.7deg);
+    }
+
+    .workprobox1inner1{
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        padding: 5px;
+        width: 250px;
+        height: 90px;
+        /* background-color: lightcoral; */
+    }
+    .workprobox1inner1 div{
+        color: white;
+        margin-left: 20px;
+        font-size: 25px;
+        /* text-transform: uppercase; */
+    }
+    .workprobox1 h4{
+        width: fit-content;
+        text-align: start;
+        /* margin: 5px; */
+        margin-left: 20px;
+        font-size: 16px;
+        color: white;
+        /* width: fit-content; */
+        /* background-color: lightslategray; */
+    }
+    .workprobox1inner2{
+        color: white;
+        text-align: left;
+        padding: 20px;
+        font-size: 15px;
+        /* background-color: lightsalmon; */
+    }
+}
+
 
 @media screen and (min-width: 1201px) {
 

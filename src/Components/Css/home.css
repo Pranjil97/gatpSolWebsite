@@ -444,100 +444,87 @@
 
 
 @media only screen and (max-width:480px) {
+
     .mainpage {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex;
-        align-items: flex-start;
-        width: 300px;
+        width: 52%;
         height: fit-content;
-        margin-top: 550px;
-        margin-left: -20px;
+        margin-top: 100px;
+        margin-left: 0px;
         /* background-color: #23c483; */
+    }
+
+    .mainhead {
+        margin-left: -5px;
+        height: 200px;
+        color: black;
+        width: 100%;
+        font-size: 25px;
+        color: white;
+        /* background-color: #e8e8e8; */
     }
 
     .caro {
         display: flex;
         justify-content: center;
-        width: 100%;
-        height: 100vh;
-        margin-top: -80px;
         align-items: center;
-        background-image: url('../Assets/meeting3.jpg');
+        background-image: url('../Assets/meeting4.jpg');
+        height: 100vh;
+        width: 100%;
+        margin: auto;
+        border: 0px solid gray;
         background-repeat: no-repeat;
         background-size: cover;
-        background-position: -290px;
-    }
-
-    .mainhead {
-        display: flex;
-        width: 100%;
-        height: 50px;
-        align-items: center;
-        margin-left: -10px;
-        font-size: 20px;
-        color: whitesmoke;
-        font-weight: 600;
-        /* background-color: #212121; */
+        background-position: -190px 10px;
     }
 
     .firstinput {
         display: flex;
         align-items: center;
+        margin-left: 0px;
         margin-top: 50px;
-        height: 50px;
-        width: 280px;
-        margin-left: -20px;
+        height: 80px;
+        width: 100%;
         color: black;
-        /* background-color: red; */
+        /* background-color: #f3b7f0; */
     }
 
     .inputbox {
-        height: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        height: 40px;
         padding: 2px;
         overflow: hidden;
         position: relative;
-        width: 240px;
-        /* background-color: #212121; */
+        width: 260px;
     }
 
     .inputbox input {
-        overflow: hidden;
-        font-size: 25px;
-        font-weight: 400;
+        font-size: 15px;
+        font-weight: 600;
         position: relative;
         width: 100%;
+        padding: 20px;
+        padding: 10px 10px 10px 10px;
         background: transparent;
         outline: none;
         box-shadow: none;
         border: none;
-        /* color: #23242a; */
-        color: black;
-        font-size: 10px;
+        color: darkslategray;
+        font-size: 1em;
         letter-spacing: 0.05em;
         transition: 0.5s;
         z-index: 10;
     }
 
     .inputbox span {
-        overflow: hidden;
-        position: absolute;
-        left: 0px;
-        margin-top: -35px;
-        padding: 10px 10px 10px;
-        font-size: 20px;
-        color: #8f8f8f;
-        letter-spacing: 00.05em;
-        transition: 0.5s;
-        pointer-events: none;
-        color: white;
+        display: none;
     }
 
     .inputbox input:valid~span,
     .inputbox input:focus~span {
         color: white;
         transform: translateX(-10px) translateY(-34px);
-        font-size: 0, 10px;
+        font-size: 0, 75em;
     }
 
     .inputbox i {
@@ -548,7 +535,7 @@
         width: 100%;
         height: 2px;
         background: white;
-        /* border-radius: 4px; */
+        border-radius: 4px;
         transition: 0.5s;
         pointer-events: none;
         z-index: 9;
@@ -557,41 +544,72 @@
     .inputbox input:valid~i,
     .inputbox input:focus~i {
         overflow: hidden;
-        height: 30px;
+        height: 44px;
+    }
+
+    .mainbtn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        margin-top: -9px;
+        width: 120px;
+        height: 40px;
+        margin-left: 5px;
+        padding: 15px 25px;
+        border: unset;
+        border-radius: 15px;
+        color: #212121;
+        z-index: 1;
+        background: #e8e8e8;
+        font-weight: 1000;
+        font-size: 11px;
+        transition: all 0.3s ease 0s;
+        overflow: hidden;
+    }
+
+
+    .mainbtn:hover {
+        background-color: #212121;
+        transform: translateY(-10px);
+        color: #e8e8e8;
+    }
+
+    .mainbtn:active {
+        transform: translateY(2px);
     }
 
 
     .service {
         display: flex;
         width: 100%;
-        height: fit-content;
-        flex-wrap: wrap;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: flex-start;
-        align-items: flex-start;
-        margin: auto;
+        align-items: center;
         margin-top: 80px;
-        /* background-color: #23c483; */
+        /* background-color: #e8e8e8; */
     }
 
     .service h2 {
-        font-size: 40px;
+        font-size: 30px;
         width: fit-content;
+        margin: auto;
         color: white;
         padding: 4px;
-        /* background-color: aqua; */
         border-bottom: 2px dashed white;
     }
 
     .servbox {
         display: flex;
-        width: 5000px;
-        height: 340px;
-        flex-direction: column;
+        flex-wrap: wrap;
+        place-content: center;
+        align-content: center;
         padding: 20px;
-        margin-top: 60px;
-        overflow: scroll;
-        /* background-color: lightgoldenrodyellow; */
+        gap: 20px;
+        margin-top: 80px;
+        width: 80%;
+        height: fit-content;
+        /* background-color: #212121; */
     }
 
     .svimg {
@@ -601,17 +619,18 @@
     }
 
     .card {
-        margin: auto;
+        /* margin: auto; */
         overflow: hidden;
         display: flex;
         flex-direction: column;
+        margin-bottom: 60px;
+        margin-left: 50px;
         box-sizing: border-box;
-        width: 210px;
-        height: 320px;
+        width: 300px;
+        height: 400px;
         background: rgba(217, 217, 217, 0.58);
         border: 1px solid white;
         box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
-        /* backdrop-filter: blur(6px); */
         border-radius: 17px;
         text-align: center;
         cursor: pointer;
@@ -621,22 +640,23 @@
         user-select: none;
         font-weight: bolder;
         color: black;
-        margin-bottom: 25px;
+    }
+
+    .card img {
+        background-color: lightcoral;
     }
 
     .card h4 {
-        font-size: 15px;
-        color: white;
-        /* background-color: lightseagreen; */
+        font-size: 22px;
+        color: whitesmoke;
     }
 
     .card p {
-        color: whitesmoke;
         margin-top: -10px;
         padding: 10px;
         height: 90px;
         text-align: flex-start;
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .card:hover {
@@ -656,29 +676,33 @@
         overflow: hidden;
         justify-content: center;
         align-items: center;
-        height: fit-content;
+        height: fit-content; 
+        width: 100%;
+        margin-top: 200px;
+        margin-bottom: 250px;
+        /* background-color: #23c483; */
     }
 
     .accSoft h3 {
         height: fit-content;
-        font-size: 32px;
+        font-size: 30px;
         width: fit-content;
         color: white;
     }
 
     .accsoftinner {
-        margin-top: 50px;
+        margin-top: 60px;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
-        width: 390px;
+        width: 85%;
         padding: 15px;
         margin-bottom: 90px;
         height: fit-content;
         border-radius: 50px;
         border-radius: 30px;
-        background: white;
+        background: transparent;
         box-shadow: 5px 5px 10px darkcyan,
             -5px -5px 10px darkcyan;
     }
@@ -692,12 +716,12 @@
         height: fit-content;
         aspect-ratio: 16/2;
         object-fit: contain;
+        /* background-color: black; */
     }
 
     .accsoftinner2 img {
-        height: 60px;
+        height: 90px;
     }
-
 
     .accServ {
         position: inherit;
@@ -706,11 +730,12 @@
         justify-content: center;
         align-items: center;
         /* background-image: url('../Assets/background2.jpg'); */
-        margin-top: 20px;
+        margin-top: 200px;
         height: fit-content;
-        margin-bottom: 120px;
-        border-top: 2px solid darkcyan;
-        border-bottom: 2px solid darkcyan;
+        /* margin-bottom: 150px; */
+        border-top: 5px solid darkcyan;
+        border-bottom: 5px solid darkcyan;
+        overflow: hidden;
     }
 
     .accServ h2 {
@@ -718,7 +743,7 @@
         color: white;
         margin-top: 50px;
         font-weight: 600;
-        font-size: 20px;
+        font-size: 25px;
         border-bottom: 1px dashed white;
     }
 
@@ -728,18 +753,20 @@
         align-items: center;
         flex-wrap: wrap;
         margin-top: 30px;
-        /* background-color: aqua; */
-        width: 450px;
-        margin-bottom: 50px;
-        /* gap: 2px; */
+        /* background-color:aqua; */
+        width: 100%;
+        display: flex;
+        margin-left: 180px;
+        margin-bottom: 100px;
     }
 
     .accServbox {
         display: flex;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
-        height: 80px;
-        width: 200px;
+        height: 150px;
+        width: 400px;
+        margin: 5px;
         /* border: 1px solid darkcyan; */
     }
 
@@ -748,34 +775,28 @@
     }
 
     .accServboxImg {
-        width: 40px;
-        height: 40px;
+        width: 50px;
+        height: 60px;
         border-radius: 10%;
         padding: 15px;
         border: 2px solid darkcyan;
         aspect-ratio: 3/2;
         object-fit: contain;
-        /* background-color: #23c483; */
     }
 
     .accServboxHead {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
         color: darkgray;
-        width: 80px;
-        overflow: hidden;
-        height: 100%;
-        font-size: 14px;
+        width: fit-content;
+        font-size: 18px;
         cursor: pointer;
-        margin-left: 15px;
         /* background-color: red; */
+        margin: 20px;
     }
 
     .accServboxHead:hover {
         color: white;
         font-weight: bold;
+        /* font-size: x-large; */
     }
 
     .accservboximg2 {
@@ -783,18 +804,14 @@
     }
 
     .security {
-        display: none;
-        /* display: flex; */
-        flex-direction: column;
-        height: 750px;
+        display: flex;
         width: 100%;
+        height: fit-content;
         margin-top: 150px;
         /* margin-bottom: 200px; */
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-image: url('../Assets/security.jpg');
-        border-top: 2px solid darkcyan;
-        border-bottom: 2px solid darkcyan;
+        border-top: 5px solid darkcyan;
+        border-bottom: 5px solid darkcyan;
+        overflow: hidden;
     }
 
     .security div {
@@ -804,10 +821,11 @@
 
     .security div h4 {
         color: white;
-        margin-top: 400px;
+        margin-top: 20px;
         width: fit-content;
-        font-size: 30px;
-        margin-bottom: 0px;
+        height: fit-content;
+        font-size: 35px;
+        font-weight: inherit;
     }
 
     .securityinner {
@@ -816,22 +834,22 @@
         justify-content: center;
         align-items: center;
         padding: 8px;
-        width: 400px;
-        /* background-color: #23c483; */
     }
 
     .securityinner p {
-        width: 500px;
-        margin-bottom: 20px;
-        text-align: flex-start;
+        width: 100%;
         /* background-color: #23c483; */
-        color: whitesmoke;
+        margin-top: -10px;
+        margin-bottom: 5px;
+        text-align: start;
+        font-size: 15px;
+        color: rgb(161, 161, 161);
     }
 
     .security img {
         display: none;
-        height: 450px;
-        width: 800px;
+        margin-right: -200px;
+        height: 400px;
     }
 
     .learnbtn {
@@ -839,13 +857,13 @@
         justify-content: center;
         align-items: center;
         color: white;
-        width: 100px;
-        height: 20px;
+        width: 12%;
+        height: 18px;
         margin-top: 15px;
         cursor: pointer;
         font-weight: 80%;
         padding: 1.3em 3em;
-        font-size: 12px;
+        font-size: 11px;
         text-transform: uppercase;
         letter-spacing: 2.5px;
         font-weight: 500;
@@ -870,6 +888,1374 @@
         transform: translateY(-1px);
     }
 
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px){
+    
+    .mainpage {
+        padding: 20px;
+        width: 50%;
+        height: fit-content;
+        margin-top: 100px;
+        margin-left: 160px;
+        /* background-color: #23c483; */
+    }
+
+    .mainhead {
+        display: flex;
+        align-items: flex-end;
+        margin-left: 50px;
+        height: 200px;
+        color: black;
+        width: fit-content;
+        font-size: 25px;
+        color: white;
+    }
+
+    .caro {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url('../Assets/meeting4.jpg');
+        height: 100vh;
+        width: 100%;
+        margin: auto;
+        border: 0px solid gray;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: -90px 20px;
+    }
+
+    .firstinput {
+        display: flex;
+        align-items: center;
+        margin-left: 50px;
+        margin-top: 50px;
+        height: 80px;
+        width: 90%;
+        color: black;
+        /* background-color: #23c483; */
+    }
+
+    .inputbox {
+        display: flex;
+        flex-wrap: wrap;
+        height: 40px;
+        padding: 2px;
+        overflow: hidden;
+        position: relative;
+        width: 260px;
+    }
+
+    .inputbox input {
+        font-size: 15px;
+        font-weight: 600;
+        position: relative;
+        width: 100%;
+        padding: 20px;
+        padding: 10px 10px 10px 10px;
+        background: transparent;
+        outline: none;
+        box-shadow: none;
+        border: none;
+        color: darkslategray;
+        font-size: 1em;
+        letter-spacing: 0.05em;
+        transition: 0.5s;
+        z-index: 10;
+    }
+
+    .inputbox span {
+        overflow: hidden;
+        position: absolute;
+        left: 10px;
+        margin-left: 90px;
+        padding: 20px 10px 10px;
+        font-size: 1em;
+        color: #8f8f8f;
+        letter-spacing: 00.05em;
+        transition: 0.5s;
+        pointer-events: none;
+        color: white;
+    }
+
+    .inputbox input:valid~span,
+    .inputbox input:focus~span {
+        color: white;
+        transform: translateX(-10px) translateY(-34px);
+        font-size: 0, 75em;
+    }
+
+    .inputbox i {
+        overflow: hidden;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 2px;
+        background: white;
+        border-radius: 4px;
+        transition: 0.5s;
+        pointer-events: none;
+        z-index: 9;
+    }
+
+    .inputbox input:valid~i,
+    .inputbox input:focus~i {
+        overflow: hidden;
+        height: 44px;
+    }
+
+    .mainbtn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        margin-top: -9px;
+        width: 120px;
+        height: 40px;
+        margin-left: 5px;
+        padding: 15px 25px;
+        border: unset;
+        border-radius: 15px;
+        color: #212121;
+        z-index: 1;
+        background: #e8e8e8;
+        font-weight: 1000;
+        font-size: 11px;
+        transition: all 0.3s ease 0s;
+        overflow: hidden;
+    }
+
+
+    .mainbtn:hover {
+        background-color: #212121;
+        transform: translateY(-10px);
+        color: #e8e8e8;
+    }
+
+    .mainbtn:active {
+        transform: translateY(2px);
+    }
+
+
+    .service {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        margin-top: 80px;
+        /* background-color: #e8e8e8; */
+    }
+
+    .service h2 {
+        font-size: 30px;
+        width: fit-content;
+        margin: auto;
+        color: white;
+        padding: 4px;
+        border-bottom: 2px dashed white;
+    }
+
+    .servbox {
+        display: flex;
+        flex-wrap: wrap;
+        place-content: center;
+        align-content: center;
+        padding: 20px;
+        gap: 20px;
+        margin-top: 80px;
+        width: 80%;
+        height: fit-content;
+        /* background-color: #212121; */
+    }
+
+    .svimg {
+        overflow: hidden;
+        height: 200px;
+        width: 100%;
+    }
+
+    .card {
+        /* margin: auto; */
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 60px;
+        margin-left: 50px;
+        box-sizing: border-box;
+        width: 300px;
+        height: 400px;
+        background: rgba(217, 217, 217, 0.58);
+        border: 1px solid white;
+        box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+        border-radius: 17px;
+        text-align: center;
+        cursor: pointer;
+        transition: all 0.5s;
+        align-items: center;
+        justify-content: center;
+        user-select: none;
+        font-weight: bolder;
+        color: black;
+    }
+
+    .card img {
+        background-color: lightcoral;
+    }
+
+    .card h4 {
+        font-size: 22px;
+        color: whitesmoke;
+    }
+
+    .card p {
+        margin-top: -10px;
+        padding: 10px;
+        height: 90px;
+        text-align: flex-start;
+        font-size: 14px;
+    }
+
+    .card:hover {
+        color: white;
+        border: 1px solid white;
+        transform: scale(1.05);
+    }
+
+    .card:active {
+        transform: scale(0.95) rotateZ(1.7deg);
+    }
+
+    .accSoft {
+        margin-top: 80px;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        justify-content: center;
+        align-items: center;
+        height: fit-content; 
+        width: 100%;
+        margin-top: 200px;
+        margin-bottom: 250px;
+        /* background-color: #23c483; */
+    }
+
+    .accSoft h3 {
+        height: fit-content;
+        font-size: 30px;
+        width: fit-content;
+        color: white;
+    }
+
+    .accsoftinner {
+        margin-top: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 85%;
+        padding: 15px;
+        margin-bottom: 90px;
+        height: fit-content;
+        border-radius: 50px;
+        border-radius: 30px;
+        background: transparent;
+        box-shadow: 5px 5px 10px darkcyan,
+            -5px -5px 10px darkcyan;
+    }
+
+    .accsoftinner2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 5px;
+        width: fit-content;
+        height: fit-content;
+        aspect-ratio: 16/2;
+        object-fit: contain;
+        /* background-color: black; */
+    }
+
+    .accsoftinner2 img {
+        height: 90px;
+    }
+
+    .accServ {
+        position: inherit;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* background-image: url('../Assets/background2.jpg'); */
+        margin-top: 200px;
+        height: fit-content;
+        /* margin-bottom: 150px; */
+        border-top: 5px solid darkcyan;
+        border-bottom: 5px solid darkcyan;
+        overflow: hidden;
+    }
+
+    .accServ h2 {
+        width: fit-content;
+        color: white;
+        margin-top: 50px;
+        font-weight: 600;
+        font-size: 25px;
+        border-bottom: 1px dashed white;
+    }
+
+    .accserv2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 30px;
+        /* background-color:aqua; */
+        width: 100%;
+        display: flex;
+        margin-left: 180px;
+        margin-bottom: 100px;
+    }
+
+    .accServbox {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        height: 150px;
+        width: 400px;
+        margin: 5px;
+        /* border: 1px solid darkcyan; */
+    }
+
+    .accServboxfake {
+        display: none;
+    }
+
+    .accServboxImg {
+        width: 50px;
+        height: 60px;
+        border-radius: 10%;
+        padding: 15px;
+        border: 2px solid darkcyan;
+        aspect-ratio: 3/2;
+        object-fit: contain;
+    }
+
+    .accServboxHead {
+        color: darkgray;
+        width: fit-content;
+        font-size: 18px;
+        cursor: pointer;
+        /* background-color: red; */
+        margin: 20px;
+    }
+
+    .accServboxHead:hover {
+        color: white;
+        font-weight: bold;
+        /* font-size: x-large; */
+    }
+
+    .accservboximg2 {
+        height: 10px;
+    }
+
+    .security {
+        display: flex;
+        width: 100%;
+        height: fit-content;
+        margin-top: 150px;
+        /* margin-bottom: 200px; */
+        border-top: 5px solid darkcyan;
+        border-bottom: 5px solid darkcyan;
+        overflow: hidden;
+    }
+
+    .security div {
+        width: 100%;
+        /* background-color: aqua; */
+    }
+
+    .security div h4 {
+        color: white;
+        margin-top: 20px;
+        width: fit-content;
+        height: fit-content;
+        font-size: 35px;
+        font-weight: inherit;
+    }
+
+    .securityinner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 8px;
+    }
+
+    .securityinner p {
+        width: 100%;
+        /* background-color: #23c483; */
+        margin-top: -10px;
+        margin-bottom: 5px;
+        text-align: start;
+        font-size: 15px;
+        color: rgb(161, 161, 161);
+    }
+
+    .security img {
+        display: none;
+        margin-right: -200px;
+        height: 400px;
+    }
+
+    .learnbtn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        width: 12%;
+        height: 18px;
+        margin-top: 15px;
+        cursor: pointer;
+        font-weight: 80%;
+        padding: 1.3em 3em;
+        font-size: 11px;
+        text-transform: uppercase;
+        letter-spacing: 2.5px;
+        font-weight: 500;
+        color: wheat;
+        background-color: darkcyan;
+        border: none;
+        border-radius: 45px;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease 0s;
+        cursor: pointer;
+        outline: none;
+    }
+
+    .learnbtn:hover {
+        background-color: #23c483;
+        box-shadow: 0px 2px 5px rgba(46, 229, 157, 0.4);
+        color: #fff;
+        transform: translateY(-7px);
+    }
+
+    .learnbtn:active {
+        transform: translateY(-1px);
+    }
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px){
+
+    .mainpage {
+        padding: 20px;
+        width: 50%;
+        height: 500px;
+        margin-top: 100px;
+        margin-left: 160px;
+        /* background-color: #23c483; */
+    }
+
+    .mainhead {
+        display: flex;
+        align-items: flex-end;
+        margin-left: 50px;
+        height: 200px;
+        color: black;
+        width: fit-content;
+        font-size: 25px;
+        color: white;
+    }
+
+    .caro {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url('../Assets/meeting4.jpg');
+        height: 100vh;
+        width: inherit;
+        margin: auto;
+        border: 0px solid gray;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .firstinput {
+        display: flex;
+        align-items: center;
+        margin-left: 50px;
+        margin-top: 25px;
+        height: 80px;
+        width: 380px;
+        color: black;
+    }
+
+    .inputbox {
+        display: flex;
+        flex-wrap: wrap;
+        height: 40px;
+        padding: 2px;
+        overflow: hidden;
+        position: relative;
+        width: 260px;
+    }
+
+    .inputbox input {
+        font-size: 15px;
+        font-weight: 600;
+        position: relative;
+        width: 100%;
+        padding: 20px;
+        padding: 10px 10px 10px 10px;
+        background: transparent;
+        outline: none;
+        box-shadow: none;
+        border: none;
+        color: darkslategray;
+        font-size: 1em;
+        letter-spacing: 0.05em;
+        transition: 0.5s;
+        z-index: 10;
+    }
+
+    .inputbox span {
+        overflow: hidden;
+        position: absolute;
+        left: 10px;
+        margin-left: 90px;
+        padding: 20px 10px 10px;
+        font-size: 1em;
+        color: #8f8f8f;
+        letter-spacing: 00.05em;
+        transition: 0.5s;
+        pointer-events: none;
+        color: white;
+    }
+
+    .inputbox input:valid~span,
+    .inputbox input:focus~span {
+        color: white;
+        transform: translateX(-10px) translateY(-34px);
+        font-size: 0, 75em;
+    }
+
+    .inputbox i {
+        overflow: hidden;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 2px;
+        background: white;
+        border-radius: 4px;
+        transition: 0.5s;
+        pointer-events: none;
+        z-index: 9;
+    }
+
+    .inputbox input:valid~i,
+    .inputbox input:focus~i {
+        overflow: hidden;
+        height: 44px;
+    }
+
+    .mainbtn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        margin-top: -9px;
+        width: 120px;
+        height: 40px;
+        margin-left: 5px;
+        padding: 15px 25px;
+        border: unset;
+        border-radius: 15px;
+        color: #212121;
+        z-index: 1;
+        background: #e8e8e8;
+        font-weight: 1000;
+        font-size: 11px;
+        transition: all 0.3s ease 0s;
+        overflow: hidden;
+    }
+
+
+    .mainbtn:hover {
+        background-color: #212121;
+        transform: translateY(-10px);
+        color: #e8e8e8;
+    }
+
+    .mainbtn:active {
+        transform: translateY(2px);
+    }
+
+
+    .service {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        margin-top: 80px;
+        /* background-color: #e8e8e8; */
+    }
+
+    .service h2 {
+        font-size: 30px;
+        width: fit-content;
+        margin: auto;
+        color: white;
+        padding: 4px;
+        border-bottom: 2px dashed white;
+    }
+
+    .servbox {
+        display: flex;
+        flex-wrap: wrap;
+        place-content: center;
+        align-content: center;
+        padding: 20px;
+        gap: 20px;
+        margin-top: 80px;
+        width: 80%;
+        height: fit-content;
+        /* background-color: #212121; */
+    }
+
+    .svimg {
+        overflow: hidden;
+        height: 200px;
+        width: 100%;
+    }
+
+    .card {
+        /* margin: auto; */
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 60px;
+        margin-left: 50px;
+        box-sizing: border-box;
+        width: 300px;
+        height: 400px;
+        background: rgba(217, 217, 217, 0.58);
+        border: 1px solid white;
+        box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+        border-radius: 17px;
+        text-align: center;
+        cursor: pointer;
+        transition: all 0.5s;
+        align-items: center;
+        justify-content: center;
+        user-select: none;
+        font-weight: bolder;
+        color: black;
+    }
+
+    .card img {
+        background-color: lightcoral;
+    }
+
+    .card h4 {
+        font-size: 22px;
+        color: whitesmoke;
+    }
+
+    .card p {
+        margin-top: -10px;
+        padding: 10px;
+        height: 90px;
+        text-align: flex-start;
+        font-size: 14px;
+    }
+
+    .card:hover {
+        color: white;
+        border: 1px solid white;
+        transform: scale(1.05);
+    }
+
+    .card:active {
+        transform: scale(0.95) rotateZ(1.7deg);
+    }
+
+    .accSoft {
+        margin-top: 80px;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        justify-content: center;
+        align-items: center;
+        height: fit-content; 
+        width: 100%;
+        margin-top: 200px;
+        margin-bottom: 250px;
+        /* background-color: #23c483; */
+    }
+
+    .accSoft h3 {
+        height: fit-content;
+        font-size: 30px;
+        width: fit-content;
+        color: white;
+    }
+
+    .accsoftinner {
+        margin-top: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 85%;
+        padding: 15px;
+        margin-bottom: 90px;
+        height: fit-content;
+        border-radius: 50px;
+        border-radius: 30px;
+        background: transparent;
+        box-shadow: 5px 5px 10px darkcyan,
+            -5px -5px 10px darkcyan;
+    }
+
+    .accsoftinner2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 5px;
+        width: fit-content;
+        height: fit-content;
+        aspect-ratio: 16/2;
+        object-fit: contain;
+        /* background-color: black; */
+    }
+
+    .accsoftinner2 img {
+        height: 90px;
+    }
+
+    .accServ {
+        position: inherit;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* background-image: url('../Assets/background2.jpg'); */
+        margin-top: 200px;
+        height: fit-content;
+        /* margin-bottom: 150px; */
+        border-top: 5px solid darkcyan;
+        border-bottom: 5px solid darkcyan;
+        overflow: hidden;
+    }
+
+    .accServ h2 {
+        width: fit-content;
+        color: white;
+        margin-top: 50px;
+        font-weight: 600;
+        font-size: 30px;
+        border-bottom: 1px dashed white;
+    }
+
+    .accserv2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 30px;
+        /* background-color:aqua; */
+        width: 100%;
+        display: flex;
+        margin-left: 180px;
+        margin-bottom: 100px;
+    }
+
+    .accServbox {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        height: 150px;
+        width: 400px;
+        margin: 5px;
+        /* border: 1px solid darkcyan; */
+    }
+
+    .accServboxfake {
+        display: none;
+    }
+
+    .accServboxImg {
+        width: 60px;
+        height: 60px;
+        border-radius: 10%;
+        padding: 15px;
+        border: 2px solid darkcyan;
+        aspect-ratio: 3/2;
+        object-fit: contain;
+    }
+
+    .accServboxHead {
+        color: darkgray;
+        width: fit-content;
+        font-size: 20px;
+        cursor: pointer;
+        /* background-color: red; */
+        margin: 40px;
+    }
+
+    .accServboxHead:hover {
+        color: white;
+        font-weight: bold;
+        /* font-size: x-large; */
+    }
+
+    .accservboximg2 {
+        height: 10px;
+    }
+
+    .security {
+        display: flex;
+        width: 100%;
+        height: fit-content;
+        margin-top: 150px;
+        /* margin-bottom: 200px; */
+        border-top: 5px solid darkcyan;
+        border-bottom: 5px solid darkcyan;
+        overflow: hidden;
+    }
+
+    .security div {
+        width: 100%;
+        /* background-color: aqua; */
+    }
+
+    .security div h4 {
+        color: white;
+        margin-top: 20px;
+        width: fit-content;
+        height: fit-content;
+        font-size: 35px;
+        font-weight: inherit;
+    }
+
+    .securityinner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 8px;
+    }
+
+    .securityinner p {
+        width: 100%;
+        /* background-color: #23c483; */
+        margin-top: -10px;
+        margin-bottom: 5px;
+        text-align: start;
+        font-size: 15px;
+        color: rgb(161, 161, 161);
+    }
+
+    .security img {
+        margin-right: -200px;
+        height: 400px;
+    }
+
+    .learnbtn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        width: 12%;
+        height: 18px;
+        margin-top: 15px;
+        cursor: pointer;
+        font-weight: 80%;
+        padding: 1.3em 3em;
+        font-size: 11px;
+        text-transform: uppercase;
+        letter-spacing: 2.5px;
+        font-weight: 500;
+        color: wheat;
+        background-color: darkcyan;
+        border: none;
+        border-radius: 45px;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease 0s;
+        cursor: pointer;
+        outline: none;
+    }
+
+    .learnbtn:hover {
+        background-color: #23c483;
+        box-shadow: 0px 2px 5px rgba(46, 229, 157, 0.4);
+        color: #fff;
+        transform: translateY(-7px);
+    }
+
+    .learnbtn:active {
+        transform: translateY(-1px);
+    }
+
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1200px){
+    .mainpage {
+        padding: 20px;
+        width: 50%;
+        height: 500px;
+        margin-top: 100px;
+        margin-left: 160px;
+        /* background-color: #23c483; */
+    }
+
+    .mainhead {
+        display: flex;
+        align-items: flex-end;
+        margin-left: 50px;
+        height: 200px;
+        color: black;
+        width: fit-content;
+        font-size: 30px;
+        color: white;
+    }
+
+    .caro {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url('../Assets/meeting4.jpg');
+        height: 100vh;
+        width: inherit;
+        margin: auto;
+        border: 0px solid gray;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .firstinput {
+        display: flex;
+        align-items: center;
+        margin-left: 50px;
+        margin-top: 25px;
+        height: 80px;
+        width: 380px;
+        color: black;
+    }
+
+    .inputbox {
+        display: flex;
+        flex-wrap: wrap;
+        height: 40px;
+        padding: 2px;
+        overflow: hidden;
+        position: relative;
+        width: 260px;
+    }
+
+    .inputbox input {
+        font-size: 15px;
+        font-weight: 600;
+        position: relative;
+        width: 100%;
+        padding: 20px;
+        padding: 10px 10px 10px 10px;
+        background: transparent;
+        outline: none;
+        box-shadow: none;
+        border: none;
+        color: darkslategray;
+        font-size: 1em;
+        letter-spacing: 0.05em;
+        transition: 0.5s;
+        z-index: 10;
+    }
+
+    .inputbox span {
+        overflow: hidden;
+        position: absolute;
+        left: 10px;
+        margin-left: 90px;
+        padding: 20px 10px 10px;
+        font-size: 1em;
+        color: #8f8f8f;
+        letter-spacing: 00.05em;
+        transition: 0.5s;
+        pointer-events: none;
+        color: white;
+    }
+
+    .inputbox input:valid~span,
+    .inputbox input:focus~span {
+        color: white;
+        transform: translateX(-10px) translateY(-34px);
+        font-size: 0, 75em;
+    }
+
+    .inputbox i {
+        overflow: hidden;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 2px;
+        background: white;
+        border-radius: 4px;
+        transition: 0.5s;
+        pointer-events: none;
+        z-index: 9;
+    }
+
+    .inputbox input:valid~i,
+    .inputbox input:focus~i {
+        overflow: hidden;
+        height: 44px;
+    }
+
+    .mainbtn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        margin-top: -9px;
+        width: 120px;
+        height: 40px;
+        margin-left: 5px;
+        padding: 15px 25px;
+        border: unset;
+        border-radius: 15px;
+        color: #212121;
+        z-index: 1;
+        background: #e8e8e8;
+        font-weight: 1000;
+        font-size: 11px;
+        transition: all 0.3s ease 0s;
+        overflow: hidden;
+    }
+
+
+    .mainbtn:hover {
+        background-color: #212121;
+        transform: translateY(-10px);
+        color: #e8e8e8;
+    }
+
+    .mainbtn:active {
+        transform: translateY(2px);
+    }
+
+
+    .service {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        margin-top: 80px;
+        /* background-color: #e8e8e8; */
+    }
+
+    .service h2 {
+        font-size: 35px;
+        width: fit-content;
+        margin: auto;
+        color: white;
+        padding: 4px;
+        border-bottom: 2px dashed white;
+    }
+
+    .servbox {
+        display: flex;
+        flex-wrap: wrap;
+        place-content: center;
+        align-content: center;
+        padding: 20px;
+        gap: 20px;
+        margin-top: 80px;
+        width: 80%;
+        height: fit-content;
+        /* background-color: #212121; */
+    }
+
+    .svimg {
+        overflow: hidden;
+        height: 200px;
+        width: 100%;
+    }
+
+    .card {
+        /* margin: auto; */
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 60px;
+        margin-left: 50px;
+        box-sizing: border-box;
+        width: 300px;
+        height: 400px;
+        background: rgba(217, 217, 217, 0.58);
+        border: 1px solid white;
+        box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+        border-radius: 17px;
+        text-align: center;
+        cursor: pointer;
+        transition: all 0.5s;
+        align-items: center;
+        justify-content: center;
+        user-select: none;
+        font-weight: bolder;
+        color: black;
+    }
+
+    .card img {
+        background-color: lightcoral;
+    }
+
+    .card h4 {
+        font-size: 22px;
+        color: whitesmoke;
+    }
+
+    .card p {
+        margin-top: -10px;
+        padding: 10px;
+        height: 90px;
+        text-align: flex-start;
+        font-size: 14px;
+    }
+
+    .card:hover {
+        color: white;
+        border: 1px solid white;
+        transform: scale(1.05);
+    }
+
+    .card:active {
+        transform: scale(0.95) rotateZ(1.7deg);
+    }
+
+    .accSoft {
+        margin-top: 80px;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        justify-content: center;
+        align-items: center;
+        height: fit-content; 
+        width: 100%;
+        margin-top: 200px;
+        margin-bottom: 250px;
+        /* background-color: #23c483; */
+    }
+
+    .accSoft h3 {
+        height: fit-content;
+        font-size: 35px;
+        width: fit-content;
+        color: white;
+    }
+
+    .accsoftinner {
+        margin-top: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 85%;
+        padding: 15px;
+        margin-bottom: 90px;
+        height: fit-content;
+        border-radius: 50px;
+        border-radius: 30px;
+        background: transparent;
+        box-shadow: 5px 5px 10px darkcyan,
+            -5px -5px 10px darkcyan;
+    }
+
+    .accsoftinner2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 5px;
+        width: fit-content;
+        height: fit-content;
+        aspect-ratio: 16/2;
+        object-fit: contain;
+        /* background-color: black; */
+    }
+
+    .accsoftinner2 img {
+        height: 90px;
+    }
+
+    .accServ {
+        position: inherit;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* background-image: url('../Assets/background2.jpg'); */
+        margin-top: 200px;
+        height: fit-content;
+        /* margin-bottom: 150px; */
+        border-top: 5px solid darkcyan;
+        border-bottom: 5px solid darkcyan;
+        overflow: hidden;
+    }
+
+    .accServ h2 {
+        width: fit-content;
+        color: white;
+        margin-top: 50px;
+        font-weight: 600;
+        font-size: 35px;
+        border-bottom: 1px dashed white;
+    }
+
+    .accserv2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 30px;
+        /* background-color:aqua; */
+        width: 100%;
+        display: flex;
+        margin-left: 180px;
+        margin-bottom: 100px;
+    }
+
+    .accServbox {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        height: 150px;
+        width: 400px;
+        margin: 5px;
+        /* border: 1px solid darkcyan; */
+    }
+
+    .accServboxfake {
+        display: none;
+    }
+
+    .accServboxImg {
+        width: 60px;
+        height: 60px;
+        border-radius: 10%;
+        padding: 15px;
+        border: 2px solid darkcyan;
+        aspect-ratio: 3/2;
+        object-fit: contain;
+    }
+
+    .accServboxHead {
+        color: darkgray;
+        width: fit-content;
+        font-size: 20px;
+        cursor: pointer;
+        /* background-color: red; */
+        margin: 40px;
+    }
+
+    .accServboxHead:hover {
+        color: white;
+        font-weight: bold;
+        /* font-size: x-large; */
+    }
+
+    .accservboximg2 {
+        height: 10px;
+    }
+
+    .security {
+        display: flex;
+        width: 100%;
+        height: fit-content;
+        margin-top: 150px;
+        /* margin-bottom: 200px; */
+        border-top: 5px solid darkcyan;
+        border-bottom: 5px solid darkcyan;
+        overflow: hidden;
+    }
+
+    .security div {
+        width: 70%;
+        /* background-color: aqua; */
+    }
+
+    .security div h4 {
+        color: white;
+        margin-top: 20px;
+        width: fit-content;
+        height: fit-content;
+        font-size: 35px;
+        font-weight: inherit;
+    }
+
+    .securityinner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 8px;
+    }
+
+    .securityinner p {
+        width: 100%;
+        /* background-color: #23c483; */
+        margin-top: -10px;
+        margin-bottom: 5px;
+        text-align: start;
+        font-size: 15px;
+        color: rgb(161, 161, 161);
+    }
+
+    .security img {
+        height: 350px;
+    }
+
+    .learnbtn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        width: 12%;
+        height: 18px;
+        margin-top: 15px;
+        cursor: pointer;
+        font-weight: 80%;
+        padding: 1.3em 3em;
+        font-size: 11px;
+        text-transform: uppercase;
+        letter-spacing: 2.5px;
+        font-weight: 500;
+        color: wheat;
+        background-color: darkcyan;
+        border: none;
+        border-radius: 45px;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease 0s;
+        cursor: pointer;
+        outline: none;
+    }
+
+    .learnbtn:hover {
+        background-color: #23c483;
+        box-shadow: 0px 2px 5px rgba(46, 229, 157, 0.4);
+        color: #fff;
+        transform: translateY(-7px);
+    }
+
+    .learnbtn:active {
+        transform: translateY(-1px);
+    }
 }
 
 
@@ -1230,93 +2616,93 @@
     }
 
     .accServboxHead:hover {
-    color: white;
-    font-weight: bold;
-    /* font-size: x-large; */
-}
+        color: white;
+        font-weight: bold;
+        /* font-size: x-large; */
+    }
 
-.accservboximg2 {
-    height: 10px;
-}
+    .accservboximg2 {
+        height: 10px;
+    }
 
-.security {
-    display: flex;
-    height: 450px;
-    margin-top: 150px;
-    /* margin-bottom: 200px; */
-    border-top: 5px solid darkcyan;
-    border-bottom: 5px solid darkcyan;
-    overflow: hidden;
-}
+    .security {
+        display: flex;
+        height: 450px;
+        margin-top: 150px;
+        /* margin-bottom: 200px; */
+        border-top: 5px solid darkcyan;
+        border-bottom: 5px solid darkcyan;
+        overflow: hidden;
+    }
 
-.security div {
-    width: 100%;
-    /* background-color: aqua; */
-}
+    .security div {
+        width: 100%;
+        /* background-color: aqua; */
+    }
 
-.security div h4 {
-    color: white;
-    margin-top: -30px;
-    width: fit-content;
-    font-size: 35px;
-    font-weight: inherit;
-}
+    .security div h4 {
+        color: white;
+        margin-top: -30px;
+        width: fit-content;
+        font-size: 35px;
+        font-weight: inherit;
+    }
 
-.securityinner {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 8px;
-}
+    .securityinner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 8px;
+    }
 
-.securityinner p {
-    width: 1000px;
-    /* background-color: #23c483; */
-    margin-bottom: 20px;
-    text-align: start;
-    color: rgb(161, 161, 161);
-}
+    .securityinner p {
+        width: 1000px;
+        /* background-color: #23c483; */
+        margin-bottom: 20px;
+        text-align: start;
+        color: rgb(161, 161, 161);
+    }
 
-.security img {
-    height: 450px;
-}
+    .security img {
+        height: 450px;
+    }
 
-.learnbtn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    width: 100px;
-    height: 20px;
-    margin-top: 15px;
-    cursor: pointer;
-    font-weight: 80%;
-    padding: 1.3em 3em;
-    font-size: 12px;
-    text-transform: uppercase;
-    letter-spacing: 2.5px;
-    font-weight: 500;
-    color: wheat;
-    background-color: darkcyan;
-    border: none;
-    border-radius: 45px;
-    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease 0s;
-    cursor: pointer;
-    outline: none;
-}
+    .learnbtn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        width: 100px;
+        height: 20px;
+        margin-top: 15px;
+        cursor: pointer;
+        font-weight: 80%;
+        padding: 1.3em 3em;
+        font-size: 12px;
+        text-transform: uppercase;
+        letter-spacing: 2.5px;
+        font-weight: 500;
+        color: wheat;
+        background-color: darkcyan;
+        border: none;
+        border-radius: 45px;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease 0s;
+        cursor: pointer;
+        outline: none;
+    }
 
-.learnbtn:hover {
-    background-color: #23c483;
-    box-shadow: 0px 2px 5px rgba(46, 229, 157, 0.4);
-    color: #fff;
-    transform: translateY(-7px);
-}
+    .learnbtn:hover {
+        background-color: #23c483;
+        box-shadow: 0px 2px 5px rgba(46, 229, 157, 0.4);
+        color: #fff;
+        transform: translateY(-7px);
+    }
 
-.learnbtn:active {
-    transform: translateY(-1px);
-}
+    .learnbtn:active {
+        transform: translateY(-1px);
+    }
 
 
 
