@@ -18,9 +18,9 @@ const NavbarButton = () => {
             </button>
             {showMenu && (
                 <div className="menu">
-                    <div className="menu-item">Home</div>
-                    <div className="menu-item">About </div>
-                    <div className="menu-item">Security</div>
+                    <div className="menu-item"><Link to='/' style={{ textDecoration: 'none', color: 'darkcyan' }}>Home</Link></div>
+                    <div className="menu-item"><Link to='/about' style={{ textDecoration: 'none', color: 'darkcyan' }}>About</Link></div>
+                    <div className="menu-item"><Link to='/service' style={{ textDecoration: 'none', color: 'darkcyan' }}>Security</Link> </div>
                     <div className="menu-item"><Link to='/contact' style={{ textDecoration: 'none', color: 'darkcyan' }}>Contact US</Link> </div>
                     <div className="menu-item"><Link to='/login' style={{ textDecoration: 'none', color: 'darkcyan' }}>Login</Link></div>
                 </div>

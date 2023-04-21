@@ -288,7 +288,22 @@
   }
 
   .btnnav {
-    display: none;
+    margin: auto;
+    margin-top: 20px;
+    margin-left:62%;
+    visibility: visible;
+  }
+  .menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: fit-content;
+    height: fit-content;
+    margin-top:10px;
+    font-size: 100%;
+    margin-right: -50px;
+    /* background-color: bisque; */
   }
   
   .navopt {
@@ -301,7 +316,7 @@
     width: 100%;
     flex-direction: row;
     align-items: center;
-    height: 70px;
+    height: fit-content;
     position: fixed;
     background: white;
     color: darkcyan;
@@ -320,7 +335,8 @@
   }
   
   .logbtn {
-    display: flex;
+    display: none;
+    /* display: flex; */
     justify-content: center;
     align-items: center;
     border-radius: 20px;
@@ -348,12 +364,12 @@
   }
   
   .nav ul {
-    display: flex;
+    /* display: flex; */
+    display: none;
     list-style-type: none;
     justify-content: center;
     align-items: center;
     /* width: fit-content; */
-    display: flex;
     height: 100%;
     flex-direction: row;
     gap: 10px;
@@ -523,7 +539,6 @@
   }
 
 }
-
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
 
@@ -1363,6 +1378,7 @@
     font-weight: 500;
     letter-spacing: 1px;
     cursor: pointer;
+    font-size: 18px;
     transition: all 0.3s ease 0s;
     color: darkcyan;
   }

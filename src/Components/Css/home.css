@@ -2258,7 +2258,6 @@
     }
 }
 
-
 @media screen and (min-width: 1201px) {
     .mainpage {
         padding: 20px;
@@ -2275,8 +2274,9 @@
         margin-left: 50px;
         height: 200px;
         color: black;
-        width: fit-content;
-        font-size: 25px;
+        width: 60%;
+        font-size: 30px;
+        /* backgrou nd-color: #23c483; */
         color: white;
     }
 

@@ -262,7 +262,7 @@
     }
     
     .contactpageform {  
-        width: fit-content;
+        width: 90%;
         height: fit-content;
         background: transparent;
         border-radius: 1rem;
@@ -284,7 +284,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 0%;
+        width: 90%;
         height: 95%;
         border-radius: 1rem;
         border: darkcyan 0.2rem solid;
