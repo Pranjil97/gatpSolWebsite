@@ -112,15 +112,16 @@
           margin-top: 80px;
           color: white;
           margin-bottom: 100px;
-          border-bottom: 2px dashed white;
+          padding: 10px;
+          border-radius: 20px;
+          border: 2px dashed darkcyan;
           font-size: 30px;
       }
 
     .workprobox{
         display: flex;
         justify-content: center;
-        align-items: flex-start;
-        width: 80%;
+        width: fit-content;
         /* gap: 50px; */
         /* background-color: rgb(32, 102, 98); */
     }
@@ -128,9 +129,10 @@
     .workprobox1{
         margin-bottom: -50px;
         border-radius: 2px;
-        width: 70%;
+        width: 80%;
         height: fit-content;
         margin: auto;
+        overflow: hidden;
         border-radius: 5px;
         border: 2px solid darkcyan;
         border-radius: 30px;
@@ -153,15 +155,17 @@
         display: flex;
         justify-items: center;
         align-items: center;
+        place-content: center;
         padding: 5px;
-        width: 250px;
+        width: 90%;
         height: 90px;
         /* background-color: lightcoral; */
     }
     .workprobox1inner1 div{
         color: white;
         margin-left: 20px;
-        font-size: 25px;
+        font-size: 23px;
+        font-weight: 800;
         /* text-transform: uppercase; */
     }
     .workprobox1 h4{
@@ -169,8 +173,9 @@
         text-align: start;
         /* margin: 5px; */
         margin-left: 20px;
-        font-size: 15px;
+        font-size: 18px;
         color: white;
+        font-weight: 800;
         /* width: fit-content; */
         /* background-color: lightslategray; */
     }
@@ -178,7 +183,7 @@
         color: white;
         text-align: left;
         padding: 20px;
-        font-size: 14px;
+        font-size: 16px;
         /* background-color: lightsalmon; */
     }
        
