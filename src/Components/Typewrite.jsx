@@ -11,9 +11,8 @@ options={{
     autoStart: true,
     loop: false,
     delay: 50,
-    pauseFor: 10000,
+    pauseFor: 1000000,
     typingSpeed: 25,
-    deleteSpeed: 50,
     cursor: "_",
   }}
 

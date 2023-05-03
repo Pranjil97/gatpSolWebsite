@@ -463,7 +463,7 @@
         border: 0px solid gray;
         background-repeat: no-repeat;
         background-size: cover;
-        background-position: -190px 10px;
+        background-position: -190px;
     }
 
     .firstinput {
@@ -740,7 +740,7 @@
         margin-top: 50px;
         font-weight: 600;
         padding: 10px;
-        font-size: 25px;
+        font-size: 23px;
         border-radius: 20px;
         border: 2px dashed darkcyan;
         /* background-color: darkcyan; */
@@ -772,8 +772,8 @@
     }
 
     .accServboxImg {
-        width: 90px;
-        height: 90px;
+        width: 50px;
+        height: 50px;
         border-radius: 20%;
         padding: 15px;
         border: 2px dotted darkcyan;
@@ -836,7 +836,7 @@
     }
 
     .securityinner p {
-        width: 100%;
+        width: 90%;
         /* background-color: #23c483; */
         margin-top: -10px;
         margin-bottom: 5px;
