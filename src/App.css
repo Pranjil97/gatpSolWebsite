@@ -289,16 +289,17 @@
 
   .btnnav {
     /* background-color: #23c483; */
-    display: flex;
+    display: none;
     height: 30px;
     flex-direction: row-reverse;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 900px;
     /* margin-left:12%; */
     visibility: visible;
   }
 
   .logo {
+    display: none;
     margin-left: 0px;
     height: 50px;
     width: 50px;
@@ -329,12 +330,13 @@
   .nav {
     margin: auto;
     display: flex;
+    bottom: 0;
     width: 100%;
     flex-direction: row;
     align-items: center;
-    height: fit-content;
+    height: 6%;
     position: fixed;
-    background: transparent;
+    background: white;
     color: darkcyan;
     transition: all 0.8s;
     z-index: 1000;
@@ -381,28 +383,30 @@
   
   .nav ul {
     /* display: flex; */
-    display: none;
+    display: flex;
     list-style-type: none;
     justify-content: center;
     align-items: center;
     /* width: fit-content; */
+    width: 100%;
+    gap: 40px;
+    margin-left: -20px;
     height: 100%;
     flex-direction: row;
-    gap: 10px;
-    margin: 20px;
-    margin-left: -30px;
     color: darkcyan;
     text-decoration: none;
     /* background-color: thistle; */
   }
   
   .nav ul li {
-    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     /* color: darkcyan; */
     /* color: white; */
     font-weight: 500;
     letter-spacing: 1px;
-    font-size: 14px;
+    font-size: 16px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
     color: darkcyan;
