@@ -12,7 +12,7 @@ const Login = () => {
             <div className='currenttab'>
                 <span>You are here: Home / Login</span>
             </div>
-            <div className='loginpage'>
+            {/* <div className='loginpage'>
                 <div className="login-box">
                     <p>Login</p>
                     <form>
@@ -34,6 +34,16 @@ const Login = () => {
                     </form>
                     <p>Don't have an account? <a href="." className="a2">Sign up!</a></p>
                 </div>
+            </div> */}
+            <div className='loginpage2'>
+                <h1>Login Page</h1>
+                <form>
+                    <div  className='form1'>
+                        <label>Email</label>
+                        <input type="text" />
+                    </div>
+                    <input className='loginbtn' type='submit' value="Login"/>
+                </form>
             </div>
         </div>
     )
