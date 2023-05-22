@@ -3,6 +3,7 @@ import location from './Assets/location.png'
 import email from './Assets/email.png'
 import telephone from './Assets/telephone.png'
 import copyright from './Assets/copyright.png'
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
     return (
@@ -11,40 +12,40 @@ const Footer = () => {
                 <div className='footcol1'>
                     <h4>OUR SERVICES</h4>
                     <ul className='footcol1ul'>
-                        <li><a>Finance & Accounting</a></li>
-                        <li><a>Bookkeeping</a></li>
-                        <li><a>Accounts Payable</a></li>
-                        <li><a>Accounts Receivable</a></li>
-                        <li><a>Bank Reconciliation</a></li>
-                        <li><a>Payroll Processing</a></li>
-                        <li><a>Tax Preparation</a></li>
-                        <li><a>Financial Reporting</a></li>
+                        <li><Link>Finance & Accounting</Link></li>
+                        <li><Link>Bookkeeping</Link></li>
+                        <li><Link>Accounts Payable</Link></li>
+                        <li><Link>Accounts Receivable</Link></li>
+                        <li><Link>Bank Reconciliation</Link></li>
+                        <li><Link>Payroll Processing</Link></li>
+                        <li><Link>Tax Preparation</Link></li>
+                        <li><Link>Financial Reporting</Link></li>
                     </ul>
                 </div>
 
                 <div className='footcol1'>
                     <h4>INDUSTRIES</h4>
                     <ul className='footcol1ul'>
-                        <li><a>Restaurant Accounting</a></li>
-                        <li><a>Real Estate Accounting</a></li>
-                        <li><a>Insurance Accounting</a></li>
-                        <li><a>Healthcare Accounting</a></li>
-                        <li><a>Retail & Wholesale</a></li>
-                        <li><a>Manufacturing Accounting</a></li>
-                        <li><a>Logistic Accounting</a></li>
-                        <li><a>Accounting For Doctors&Dentists</a></li>
+                        <li><Link>Restaurant Accounting</Link></li>
+                        <li><Link>Real Estate Accounting</Link></li>
+                        <li><Link>Insurance Accounting</Link></li>
+                        <li><Link>Healthcare Accounting</Link></li>
+                        <li><Link>Retail & Wholesale</Link></li>
+                        <li><Link>Manufacturing Accounting</Link></li>
+                        <li><Link>Logistic Accounting</Link></li>
+                        <li><Link>Accounting For Doctors&Dentists</Link></li>
                     </ul>
                 </div>
 
                 <div className='footcol1'>
                     <h4>OUR COMPANY</h4>
                     <ul className='footcol1ul'>
-                        <li><a>About Us</a></li>
-                        <li><a>Security</a></li>
-                        <li><a>Contact Us</a></li>
-                        <li><a>Infrastructure</a></li>
-                        <li><a>Career</a></li>
-                        <li><a>Terms & Condition</a></li>
+                        <li><Link>About Us</Link></li>
+                        <li><Link>Security</Link></li>
+                        <li><Link>Contact Us</Link></li>
+                        <li><Link>Infrastructure</Link></li>
+                        <li><Link>Career</Link></li>
+                        <li><Link>Terms & Condition</Link></li>
                     </ul>
                 </div>
             </div>
