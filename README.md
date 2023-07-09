@@ -1,70 +1,22 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## APP ScreenShot
 
-## Available Scripts
 
-In the project directory, you can run:
+![Homepage](https://github.com/Pranjil97/gatpSolWebsite/assets/109173457/53b9fba7-abd0-4ce6-b469-07e58b02579e)
+![Homepage2](https://github.com/Pranjil97/gatpSolWebsite/assets/109173457/23dc6921-5cad-41a3-887f-b08ccc55bc7d)
+![HomePage3](https://github.com/Pranjil97/gatpSolWebsite/assets/109173457/67a45bee-aa38-458d-9b9f-827a9456a240)
+![HomePage4](https://github.com/Pranjil97/gatpSolWebsite/assets/109173457/fffb866a-77eb-4619-b092-a620d9c1b1bc)
+![HomePage5](https://github.com/Pranjil97/gatpSolWebsite/assets/109173457/e0cde2b1-2527-4a38-87ba-b01662695475)
+![HomePage6](https://github.com/Pranjil97/gatpSolWebsite/assets/109173457/28973c9c-a192-4780-bef6-9b2a995af402)
+![AboutPage](https://github.com/Pranjil97/gatpSolWebsite/assets/109173457/89ad3d6e-1f40-41ca-a12c-166ef88c4cf0)
+![AboutPage2](https://github.com/Pranjil97/gatpSolWebsite/assets/109173457/e3c1cf75-1ec5-448c-adac-baee3a4c327d)
+![Security](https://github.com/Pranjil97/gatpSolWebsite/assets/109173457/9580fd6e-0f71-451e-a283-347ed6df5fec)
+![SecurityPage2](https://github.com/Pranjil97/gatpSolWebsite/assets/109173457/adc1ffc1-c6de-4e04-b189-2b321250b530)
+![ContacUsPage](https://github.com/Pranjil97/gatpSolWebsite/assets/109173457/93ff0293-0495-41a9-ae8b-88557705e915)
+![ContactUsPage2](https://github.com/Pranjil97/gatpSolWebsite/assets/109173457/c7de2b78-ef95-4c72-9112-8a4da9860d8f)
+![ContactUsPage3](https://github.com/Pranjil97/gatpSolWebsite/assets/109173457/38a710b5-95e0-45b2-b29d-1c75bb45271f)
+![LoginPage](https://github.com/Pranjil97/gatpSolWebsite/assets/109173457/eace2f74-2ea4-4ea9-9d2d-e0cd6d968f39)
+![LoginPage2](https://github.com/Pranjil97/gatpSolWebsite/assets/109173457/196d17ab-3658-4b06-8abc-569ed5785775)
+![footar](https://github.com/Pranjil97/gatpSolWebsite/assets/109173457/ca9b110e-1415-462d-97bb-3139c0cfde1c)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
